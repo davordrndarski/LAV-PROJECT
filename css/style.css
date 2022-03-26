@@ -1666,6 +1666,7 @@ header .nav a {
         font-family: 'lowan';
         font-size: 25px;
         color: #f0d86d;
+        padding: 0 !important;
     }
 
     .a_gate .bottle-c img {
