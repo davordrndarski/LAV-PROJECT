@@ -52,3 +52,10 @@ $('.toggle-menu').click (function(){
   $('.mob-nav').toggleClass('mob-nav-active');
   $('.mob-nav').toggleClass('open');
 });
+
+
+
+
+// Animate css
+
+new WOW().init();
