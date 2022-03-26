@@ -2084,7 +2084,8 @@ header .nav a {
 
     .paper_wrap li p {
         width: 50% !important;
-        font-size: 14px;
+        font-size: 15px;
+        font-weight: bold;
     }
 
     .paper_wrap li {
