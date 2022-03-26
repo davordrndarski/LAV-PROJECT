@@ -1755,6 +1755,7 @@ header .nav a {
     .lav_board-mob {
         display: block;
         margin: auto;
+        width: 70%;
     }
     .lav_board {
         display: none;
