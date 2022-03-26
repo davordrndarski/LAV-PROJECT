@@ -1,0 +1,2245 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: 'lowan';
+  src: url('../fonts/lowan.ttf');
+}
+
+
+body {
+	margin: 0;
+	font-family: 'Poppins-Light';
+}
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+/** Age gate **/
+
+.mob-btn {
+	display: none;
+}
+
+.lav_board-mob {
+	display: none;
+}
+
+.a_gate {
+	position: relative;
+    height: 100vh;
+    background: url(../images/lav-pozadina.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.center-all {
+	display: flex;
+    align-items: center;
+    height: 100%;
+    width: 57%;
+    background: url(../images/blue-background.png);
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.a_gate .a_gate_wrap {
+	width: 75%;
+	padding: 0 50px
+}
+
+.a_gate .a_logo {
+	text-align: center;
+	position: relative;
+}
+
+.main-logo-mobile {
+	display: none;
+}
+
+.a_gate .a_logo .lav_board {
+	position: relative;
+}
+
+.a_gate .a_logo .lav-img {
+    max-width: 200px;
+    position: relative;
+    bottom: -33px;
+    z-index: 5;
+}
+
+.a_login_form {
+	text-align: center;
+	margin-top: 15%;
+}
+
+.mob_bottle {
+	display: none;
+}
+
+
+.a_login_form h1 {
+	font-size: 2.60vw;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-family: 'Poppins-Regular';
+}
+
+.a_login_form p {
+	color: #fff;
+	font-size: 1.04vw;
+}
+
+.lav_social ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.lav_social ul a {
+	color: #fff;
+    font-size: 1.56vw;
+    margin: 0 7px;
+}
+
+.lav_social p,
+.lav_social a  {
+	margin: 0;
+    color: #fff;
+    font-family: 'Poppins-Regular';
+    font-size: 0.93vw;
+    line-height: 1.7;
+}
+
+.copy {
+	font-size: 0.67vw !important;
+}
+
+/* Bottle section */
+
+.bottle_wrap {
+	text-align: right;
+}
+
+.lav_table {
+	width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.bottle-c {
+	position: absolute;
+    bottom: 0;
+    z-index: 6;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottle-c img {
+	min-width: 123%;
+}
+
+
+/** Custom Select **/
+
+.form_select {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+.btn {
+	width: 100%;
+}
+
+.form_select .btn button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.35vw;
+    padding: 0.52vw 1.82vw;
+    font-family: 'Poppins-Regular';
+    font-weight: normal;
+    cursor: pointer;
+    margin: 40px 0;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.form_select .btn button:hover {
+	background: #fff;
+	color: #151e4e;
+}
+
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+    
+.custom-select-trigger {
+	position: relative;
+    display: block;
+    color: #222C6A;
+    cursor: pointer;
+    font-size: 1.19vw;
+    border-right: 1px solid #204692;
+    padding: 5px 0;
+}
+
+.form_select .custom-select.last .custom-select-trigger {
+	border-right: none !important;
+}
+
+.custom-select-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 10px 0 10px;
+    border-color: #0f2349 transparent transparent transparent;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+     
+
+.custom-select-wrapper {
+	background: #fff;
+    flex: 1;
+    padding: 0.52vw 0;
+}
+
+.custom-options {
+	position: absolute;
+	display: block;
+	top: 100%; left: 0; right: 0;
+	min-width: 100%;
+	margin: 15px 0;
+	border: 1px solid #b5b5b5;
+	border-radius: 4px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 1px rgba(0,0,0,.07);
+	background: #fff;
+	transition: all .4s ease-in-out;    
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transform: translateY(-15px);
+	height: 193px;
+    overflow: scroll;
+}
+
+.custom-select.opened .custom-options {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: all;
+	transform: translateY(0);
+}
+
+
+
+.custom-option {
+	font-family: 'Poppins-Regular';
+    position: relative;
+    display: block;
+    padding: 0 22px;
+    border-bottom: 1px solid #b5b5b5;
+    font-size: 0.93vw;
+    font-weight: 600;
+    color: #222C6A;
+    line-height: 47px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.custom-option:first-of-type {
+    border-radius: 4px 4px 0 0;
+}
+
+.custom-option:last-of-type {
+    border-bottom: 0;
+    border-radius: 0 0 4px 4px;
+}
+
+.custom-option:hover,
+.custom-option.selection {
+    background: #f9f9f9;
+}
+
+/* Bottle wrap */
+
+.bottle_wrap {
+	position: absolute;
+	bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+/* Homepage */
+
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	padding: 0 50px;
+}
+
+.header_wrap {
+	display: flex;
+}
+
+.main-logo {
+	width: 100px;
+}
+
+header .nav {
+	display: flex;
+}
+
+header .nav a {
+	font-size: 1.14vw;
+	font-family: 'Poppins-Regular';
+	color: #233d83;
+	padding-left: 50px;
+	padding-top: 25px;
+	display: inline-block;
+}
+
+.home_wrap {
+	background: url(../images/window-background.png);
+	background-size: cover;
+	height: 100vh;
+}
+
+.home_wrap .bottle-c {
+    position: absolute;
+    bottom: 11%;
+    z-index: 6;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.home_wrap .bottle-c img {
+	min-width: 83%;
+    max-width: 83%;
+}
+
+.bottle_wrap-1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.h_wrap_left {
+    width: 40%;
+    padding: 75px 40px 0;
+}
+
+.h_wrap_right {
+	width: 60%;
+	text-align: right;
+}
+
+.h_wrap_right img {
+	width: 85%;
+}
+
+
+.h_wrap_left .a_logo {
+	position: relative;
+	text-align: center;
+}
+
+.h_wrap_left .a_logo .lav-img {
+    max-width: 125px;
+    position: relative;
+    bottom: -28px;
+    z-index: 5;
+}
+
+.h_wrap_left p {
+	font-size: 1.1vw;
+    color: #070f47;
+    line-height: 1.5;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.h_wrap_left .local {
+	background: transparent;
+    border: none;
+    border-bottom: 2px dashed;
+}
+
+
+.bottom_img {
+	position: absolute;
+	bottom: 0;
+}
+
+.bottom_img .lav_social {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.bottom_img .lav_social li:first-child a {
+    margin: 0;
+    color: #fff;
+    font-family: 'Poppins-Regular';
+    font-size: 0.93vw;
+    line-height: 1.7;
+}
+.bottom_img .lav_social li {
+	margin: 0 15px;
+}
+
+
+.enterCode {
+	background: transparent;
+    border: 1px solid #070f47;
+    color: #070f47;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.enterCode::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #070f47;
+  font-family: 'Poppins-Regular';
+  font-weight: bold;
+}
+.enterCode::-moz-placeholder { /* Firefox 19+ */
+  color: #070f47;
+  font-family: 'Poppins-Regular';
+  font-weight: bold;
+}
+.enterCode:-ms-input-placeholder { /* IE 10+ */
+  color: #070f47;
+  font-family: 'Poppins-Regular';
+  font-weight: bold;
+}
+.enterCode:-moz-placeholder { /* Firefox 18- */
+  color: #070f47;
+  font-family: 'Poppins-Regular';
+  font-weight: bold;
+}
+
+.code_enter {
+	text-align: center;
+}
+
+.code_enter button,
+.refist-form button  {
+	background: #233d83;
+    border: 2px solid #233d83;
+    color: #fff;
+    font-size: 1.2vw;
+    padding: 0.32vw 1.82vw;
+    font-family: 'Poppins-Regular';
+    font-weight: normal;
+    cursor: pointer;
+    margin: 40px 0;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-top: 20px;
+}
+
+.code_enter button:hover,
+.refist-form button:hover {
+	background: transparent;
+	color: #233d83;
+}
+
+
+/* Nagrade */
+
+
+.present_wrap {
+    background: url(../images/nagrade-pozadina.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.lav-img-mob {
+	display: none;
+}
+
+.present_wrap .lav_social ul {
+	margin-bottom: 0;
+}
+
+.present_wrap .a_logo {
+	position: absolute;
+    width: 31%;
+    top: 9%;
+    left: 9%;
+}
+
+
+
+.shaddow_bottle {
+    position: absolute;
+    width: 17%;
+    bottom: 15%;
+}
+
+.mob-flasa {
+	display: none;
+}
+
+.tv {
+    position: absolute;
+    width: 33%;
+    top: 35%;
+    left: 12%;
+}
+
+.stoni_f {
+    position: absolute;
+    width: 25%;
+    right: 28%;
+    bottom: 25%;
+}
+
+.bicikl {
+	position: absolute;
+    right: 30%;
+    width: 25%;
+    top: 5%;
+}
+
+.krigle {
+	position: absolute;
+    right: 5%;
+    width: 26%;
+    top: 10%;
+}
+
+.majice {
+	position: absolute;
+    right: 10%;
+    bottom: 33%;
+    width: 20%;
+}
+
+/* Pravilnik */
+
+.pravilnik {
+	background: url(../images/pravilnik-pozadina.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.pravilnik .a_logo {
+    position: absolute;
+    width: 31%;
+    top: 9%;
+    left: 9%;
+}
+
+.p_pravilnik {
+    position: absolute;
+    width: 26%;
+    bottom: 0;
+    z-index: 5;
+    left: -5%;
+}
+
+.pr_wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+
+.p_window-mobile {
+	display: none;
+}
+
+.p_pravilnik_can {
+    position: absolute;
+    right: -4%;
+    bottom: 13%;
+    z-index: 5;
+    width: 23%;
+}
+
+.pravilnik_logo {
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -3%;
+    width: 24%;
+}
+
+.pravilnik .bottom_img {
+	z-index: 10;
+}
+
+.pr_content {
+	font-size: 1vw;
+    position: absolute;
+    left: 50%;
+    z-index: 99;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    height: 27.5vw;
+    overflow: scroll;
+    width: 53%;
+    color: #00264a;
+}
+
+.pr_content h2 {
+	font-size: 1.2vw;
+	color: #00264a;
+	margin: 0;
+}
+
+
+/* Registracija */
+
+.registracija {
+	background: url(../images/registracija-pozadina.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.regist-form-mobile {
+	display: none;
+}
+
+.refist-form {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    width: 37%;
+    z-index: 10;
+}
+
+.refist-form form {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+}
+
+.refist-form form {
+	display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding-top: 10%;
+}
+
+.refist-form form input[type="text"] {
+	height: 2.3vw;
+	width: 100%;
+    border: 1px solid #0f3376;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 0.9vw;
+    color: #0f3376;
+}
+
+.refist-form p {
+	width: 100%;
+	text-align: center;
+	font-size: 1vw;
+	color: #233d83;
+	font-weight: bold;
+}
+
+
+.refist-form form input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #0f3376;
+}
+.refist-form form input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+  color: #0f3376;
+}
+.refist-form form input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+  color: #0f3376;
+}
+.refist-form form input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  color: #0f3376;
+}
+
+.refist-form .check {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+
+.refist-form .check label {
+    font-size: 0.8vw;
+}
+
+.refist-form button {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+
+
+/* Rang lista */
+
+.rang_lista {
+	background: url(../images/rang_pozadina.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.rang_lista .rang_wrap {
+	position: relative;
+	width: 50%;
+    padding-top: 3%;
+    padding-left: 7%;
+}
+
+.sprej {
+    position: absolute;
+    right: 26%;
+    bottom: 13%;
+    z-index: 5;
+    width: 34%;
+}
+
+.print {
+    position: absolute;
+    top: 12%;
+    right: 14%;
+    width: 33vw;
+}
+
+.kaktus {
+	position: absolute;
+    right: 3%;
+    bottom: 23%;
+    width: 12%;
+}
+
+
+.winners-wrap {
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    width: 28.4vw;
+    height: 22vw;
+    overflow: scroll;
+}
+
+.rang-list_mobile {
+	display: none;
+}
+
+.winners_heading {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.winners_heading li {
+	font-size: 0.8vw;
+}
+
+
+
+.winners_heading li:first-child,
+.winners_list li:first-child  {
+	width: 10%;
+}
+
+.winners_list li:first-child {
+	padding-right: 3%;
+}
+
+.winners_heading li:nth-child(2),
+.winners_list li:nth-child(2) {
+	width: 40%;
+}
+
+.winners_heading li:nth-child(3),
+.winners_list li:nth-child(3) {
+	width: 25%;
+	text-align: center;
+}
+
+.winners_heading li:nth-child(4),
+.winners_list li:nth-child(4) {
+	width: 25%;
+	text-align: center;
+}
+
+
+.winners_list {
+	display: flex;
+}
+
+.winners_list li:first-child {
+	text-align: center;
+}
+
+.winners_list li {
+	text-transform: uppercase;
+	font-size: 0.8vw;
+	margin: 7px 0;
+}
+
+/* Uputstva */
+
+
+.uputstva {
+	background: url(../images/uputstva-pozadina.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+   	text-align: center;
+}
+
+.uputstvo_logo {
+	width: 16%;
+    margin-top: 60px;
+}
+
+
+.paper_wrap {
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	margin: auto;
+}
+
+.paper_wrap li {
+	width: 25%;
+	position: relative;
+	padding: 0 25px;
+}
+
+.number {
+	display: none;
+}
+
+.mob-icons {
+	display: none;
+}
+
+.paper_wrap li:first-child {
+	bottom: -3vw;
+}
+
+.paper_wrap li:first-child p{
+    color: #fff;
+    width: 13vw;
+}
+
+
+.paper_wrap li:first-child p {
+	top: 22%;
+    left: 55%;
+    transform: translate(-50%);
+}
+
+.paper_wrap li:first-child::after {
+    content: '';
+    background: url(../images/strelica-1.png);
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 23%;
+    background-repeat: no-repeat;
+    right: -13%;
+    z-index: 5;
+}
+
+.paper_wrap li:nth-child(2)::after {
+    content: '';
+    background: url(../images/strelica-2.png);
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 27%;
+    background-repeat: no-repeat;
+    right: -13%;
+    z-index: 5;
+}
+
+.paper_wrap li:nth-child(3)::after {
+    content: '';
+    background: url(../images/strelica-3.png);
+    width: 150px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 27%;
+    background-repeat: no-repeat;
+    right: -12%;
+    z-index: 5;
+}
+
+.paper_wrap li:nth-child(2){
+	bottom: -2vw;
+}
+
+.paper_wrap li:nth-child(2) p {
+    top: 20%;
+    left: 51%;
+    transform: translate(-50%);
+    width: 12vw;
+}
+
+.paper_wrap li:nth-child(3){
+	bottom: -2vw;
+}
+
+.paper_wrap li:nth-child(3) p {
+    top: 17%;
+    left: 46%;
+    transform: translate(-50%);
+    width: 12vw;
+}
+
+.paper_wrap li:nth-child(4){
+	bottom: -3vw;
+}
+
+.paper_wrap li p {
+	position: absolute;
+	color: #fff;
+    font-size: 0.8vw;
+    line-height: 1.5 !important;
+}
+
+.paper_wrap li p span {
+	font-family: 'Poppins-Regular';
+	color: #e4c367;
+}
+
+
+
+.paper_wrap li:nth-child(4) p {
+    top: 22%;
+    left: 56%;
+    transform: translate(-50%);
+    color: #fff;
+    width: 12vw;
+    line-height: 1.2;
+}
+
+.uputstvo_cetka {
+	position: absolute;
+    bottom: 8%;
+    z-index: 5;
+    left: 50%;
+    transform: translate(-50%);
+    width: 15%;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 1921px) {
+	.a_gate .a_logo {
+	    width: 70%;
+	    margin: auto;
+	}
+	.bottle-c {
+		width: 25%;
+	}
+	.form_select .btn button {
+		margin-top: 90px;
+	}
+}
+
+
+@media only screen and (max-width: 1700px) {
+	.custom-select-trigger:after {
+		border-width: 7px 5px 0 5px;
+		right: 15%;
+	}
+	.custom-select-trigger {
+		font-size: 22px;
+	}
+	.form_select .btn button {
+		font-size: 25px;
+    	padding: 10px 35px;
+	}
+	.custom-select-wrapper {
+		padding: 15px 0;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.h_wrap_left {
+	    padding: 90px 40px 0;
+	}
+	.bottle-c img {
+		min-width: 120%;
+	    padding: 5%;
+	}
+	.form_select {
+	    padding-top: 10px;
+	}
+	.uputstvo_logo {
+	    margin-top: 75px;
+	    margin-bottom: -20px;
+	}
+	.paper_wrap {
+	    width: 100%;
+	}
+	.paper_wrap li:first-child {
+	    bottom: -5vw;
+	}
+	.paper_wrap li:first-child p {
+	    top: 21%;
+	}
+	.paper_wrap li:nth-child(2) {
+	    bottom: -4vw;
+	}
+	.paper_wrap li:nth-child(3) {
+	    bottom: -3vw;
+	}
+	.paper_wrap li:nth-child(4) {
+	    bottom: -4vw;
+	}
+	.paper_wrap li:first-child::after,
+	.paper_wrap li:nth-child(2)::after,
+	.paper_wrap li:nth-child(3)::after {
+		right: -17%;
+	}
+	.refist-form {
+	    top: 43%;
+	    width: 40%;
+	}
+	.refist-form p {
+		font-size: 1.2vw;
+	}
+
+}
+
+@media only screen and (max-width: 1450px) {
+	.a_gate .a_logo .lav-img {
+	    max-width: 160px;
+	}
+	.bottle-c {
+	    width: 40%;
+	}
+	.home_wrap .bottle-c img {
+	    min-width: 100%;
+	    max-width: 100%;
+	}
+	.h_wrap_right img {
+	    width: 85%;
+	    padding-top: 25px;
+	}
+	.bottle-c img {
+	    min-width: 100%;
+	    padding: 0;
+	}
+	.a_gate .a_gate_wrap {
+	    width: 75%;
+	    padding: 0 115px 0 30px;
+	}
+	.a_login_form p {
+	    font-size: 18px;
+	}
+	.custom-select-trigger {
+	    font-size: 20px;
+	}
+	.custom-select-trigger {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.custom-select-trigger:after {
+		position: static;
+    	margin-top: 8px;
+    	margin-left: 10px;
+	}
+	.custom-option {
+		font-size: 14px;
+	}
+	.tv {
+	    width: 30%;
+	    top: 40%;
+	    left: 12%;
+	}
+	.stoni_f {
+	    width: 28%;
+	    right: 28%;
+	    bottom: 20%;
+	}
+	.majice {
+	    right: 6%;
+	    bottom: 30%;
+	    width: 20%;
+	}
+	.rang_lista .rang_wrap {
+	    margin-top: 3%;
+	}
+	.refist-form {
+	    top: 41%;
+	    width: 41%;
+	}
+	.refist-form .check label {
+	    font-size: 1vw;
+	}
+}
+
+
+@media only screen and (max-width: 1350px) {
+	.paper_wrap {
+		position: relative;
+	    bottom: -4vw;
+	}
+	.refist-form p {
+		margin-bottom: 0;
+	}
+	.refist-form p {
+		font-size: 1.2vw;
+	}
+	.refist-form form input[type="text"] {
+	    height: 2.8vw;
+	}
+	.refist-form form input[type="text"] {
+		font-size: 1.1vw;
+	}
+}
+
+
+@media only screen and (max-width: 1250px) {
+	.a_gate {
+		height: auto;
+	}
+	.a_gate .a_gate_wrap {
+		padding: 50px 90px 40px 30px;
+	}
+	.a_gate .a_logo .lav-img {
+	    max-width: 140px;
+	}
+	.bottle-c img {
+	    padding: 0 5%;
+	}
+	.bottle-c {
+	    width: 42%;
+	}
+	.home_wrap .bottle-c {
+		width: 48%;
+	}
+	.h_wrap_left {
+	    padding: 10% 40px 0;
+	}
+	.a_login_form p {
+	    font-size: 18px;
+	}
+	.custom-select-wrapper {
+	    padding: 10px 0;
+	}
+	.custom-select-trigger {
+	    font-size: 17px;
+	}
+	.form_select .btn button {
+	    font-size: 20px;
+	}
+	.lav_social p, .lav_social a {
+	    font-size: 15px;
+	}
+	.lav_social ul a {
+	    font-size: 20px;
+	}
+	.present_wrap .a_logo {
+	    top: 15%;
+	}
+	.tv {
+	    top: 42%;
+	}
+	.bicikl {
+	    top: 10%;
+	}
+	.majice {
+	    right: 5%;
+	}
+	.paper_wrap li:first-child::after, .paper_wrap li:nth-child(2)::after, .paper_wrap li:nth-child(3)::after {
+    	right: -22%;
+	}	
+	.paper_wrap {
+	    bottom: -9vw;
+	}
+	.refist-form {
+	    top: 45%;
+	    width: 49%;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.a_gate {
+		background-size: cover;
+	}
+
+	.bottle-c {
+	    width: 40%;
+	}
+	.bottle-c img {
+		padding: 0;
+	}
+	.h_wrap_right img {
+	    width: 100%;
+	    padding-top: 10%;
+	}
+	header .nav a {
+	    font-size: 14px;
+	}
+	.h_wrap_left p {
+	    font-size: 13px;
+	}
+	.h_wrap_left {
+	    padding: 15% 40px 0;
+	}
+	.home_wrap .bottle-c {
+	    width: 40%;
+	}
+	.code_enter button, .refist-form button {
+		padding: 5px 30px;
+		font-size: 13px;
+	}
+	.enterCode {
+		width: 65%;
+	}
+
+	.rang_lista .rang_wrap {
+	    width: 60%;
+	}
+	.print {
+	    right: 3%;
+	}
+	.kaktus {
+	    bottom: 15%;
+	}
+	.winners-wrap {
+	    top: 32%;
+	    left: 33%;
+	    width: 36.4vw;
+	    height: 27vw;
+	}
+	.rang_lista .rang_wrap {
+	    margin-top: 7%;
+	}
+	.sprej {
+	    right: 15%;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+	header {
+		position: absolute;
+	}
+	.a_login_form h1 {
+		font-size: 28px;
+	}
+	.center-all {
+		width: 75%;
+	}
+	.bottle-c {
+	    left: 63%;
+	}
+	.custom-select-trigger {
+	    border-right: none;
+	}
+	.form_select {
+	    width: 90%;
+	}
+	.present_wrap .a_logo {
+	    top: 20%;
+	}
+	.bicikl {
+	    top: 15%;
+	    right: 27%;
+	    width: 30%;
+	}
+	.tv {
+	    top: 42%;
+	    width: 35%;
+	}
+	.bicikl {
+	    top: 15%;
+	    right: 25%;
+	    width: 33%;
+	}
+	.stoni_f {
+	    width: 31%;
+	    right: 21%;
+	    bottom: 15%;
+	}
+	.majice {
+	    right: 3%;
+	    width: 26%;
+	    bottom: 35%;
+	}
+	.pr_content {
+		font-size: 1.3vw;
+		height: 30.5vw;
+	}
+	.pr_wrap {
+	    width: 90%;
+	}
+	.pr_wrap {
+		top: 45%;
+	}
+	.pravilnik_logo {
+	    width: 27%;
+	}
+
+	.p_pravilnik_can {
+	    width: 27%;
+	    bottom: 11%;
+	}
+	.p_pravilnik {
+	    width: 27%;
+	    bottom: 5%;
+	}
+	.rang_lista .rang_wrap {
+	    margin-top: 15%;
+	}
+	.winners_heading li {
+	    font-size: 1.2vw;
+	}
+	.winners_list li {
+		font-size: 1.2vw;
+	}
+	.sprej {
+	    bottom: 9%;
+	    width: 40%;
+	}
+
+	.uputstvo_logo {
+	    width: 30%;
+	}
+
+	.uputstva {
+		height: auto;
+	}
+
+	.paper_wrap img {
+		display: none;
+	}
+
+	.paper_wrap .mob-icons {
+		display: block !important;
+	}
+
+	.paper_wrap li {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.number {
+		display: block;
+		width: 100%;
+		text-align: center;
+		font-family: 'Poppins-Regular';
+	}
+
+	.paper_wrap li p {
+		color: #00264a !important;
+		font-size: 15px;
+		width: 50% !important;
+		position: static;
+		transform: translate(0) !important;
+		width: 30% !important;
+	}
+
+	.paper_wrap li p span {
+		color: #00264a;
+	}
+
+	.paper_wrap li img {
+		width: 50%;
+	}
+
+	.uputstvo_wrap {
+		padding: 0 0 30%;
+		background: url(../images/uputstva-pozadina.png);
+	}
+
+	.paper_wrap {
+	    bottom: 0;
+	}
+	.uputstvo_cetka {
+	    bottom: 4.4%;
+	}
+
+	.paper_wrap li:first-child img {
+		margin-left: -10%;
+
+	}
+
+	.paper_wrap li:first-child::after,
+	.paper_wrap li:nth-child(3)::after {
+		background: url(../images/Plava-strelica-l-mob.png);
+	    right: 24%;
+	    background-repeat: no-repeat;
+	    position: absolute;
+	    top: 40vw;
+	}
+
+	.paper_wrap li:nth-child(2)::after {
+		background: url(../images/Plava-strelica-r-mob.png);
+	    left: 30%;
+	    background-repeat: no-repeat;
+	    position: absolute;
+	    top: 45vw;
+	}
+
+	.refist-form {
+	    top: 45%;
+	    width: 65%;
+	}
+
+	.refist-form p {
+	    font-size: 17px;
+	    margin: 0;
+	}
+
+	.refist-form form input[type="text"] {
+	    height: 40px;
+	}
+	.refist-form form input[type="text"] {
+	    font-size: 14px;
+	}
+
+	.refist-form .check label {
+	    font-size: 12px;
+	}
+	
+}
+
+@media only screen and (max-width: 850px) {
+	.refist-form {
+	    width: 75%;
+	}
+	.registracija {
+		height: auto;
+	}
+
+	.refist-form {
+	    width: 75%;
+	    position: static;
+	    transform: translate(0);
+	    margin: auto;
+	    padding-bottom: 20%;
+	    padding-top: 5%;
+	}
+
+	.refist-form form {
+		padding-top: 0;
+	}
+	.refist-form form {
+		top: 45%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	/* Staart toggle */
+
+	.mob-btn {
+		display: block;
+	}
+
+    
+    .mob-btn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 25px;
+        top: 40px;
+    }
+
+    .mob-btn.fix_btn {
+    	position: fixed;
+    	z-index: 5;
+    }
+
+    .hide_bottle {
+    	display: none !important;
+    }
+
+
+    .toggle-menu {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        outline: none;
+        padding: 0;
+        pointer-events: initial;
+        position: relative;
+        vertical-align: middle;
+        width: 50px;
+        z-index: 10;
+      }
+    .toggle-menu span {
+        background-color: #233d83;
+        content: "";
+        display: block;
+        height: 2px;
+        left: calc(50% - 13px );
+        position: absolute;
+        top: calc(50% - 1px );
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  -webkit-transform 0.2s linear;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear, -webkit-transform 0.2s linear;
+        width: 26px;
+      }
+    .toggle-menu span:before, .toggle-menu span:after {
+        background-color: #233d83;
+        content: "";
+        display: block;
+        height: 2px;
+        position: absolute;
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  -webkit-transform 0.2s linear;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear, -webkit-transform 0.2s linear;
+        width: 26px;
+      }
+    .toggle-menu span:before {
+        top: 7px;
+    }
+    .toggle-menu span:after {
+        top: -7px;
+    }
+   .toggle-menu.active span {
+        background-color: transparent;
+        transition: background 0.2s ease-out;
+    }
+    .toggle-menu.active span:before, .toggle-menu.active span:after {
+        transition: top 0.2s ease-out, -webkit-transform 0.2s 0.2s ease-out;
+        transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out;
+        transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out, -webkit-transform 0.2s 0.2s ease-out;
+        background: #233d83;
+    }
+    .toggle-menu.active span:before {
+        top: 0;
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
+    }
+    .toggle-menu.active span:after {
+        top: 0;
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg);
+    }
+
+    /* End nav */
+
+	header {
+		padding: 0 20px;
+		position: absolute;
+	}
+
+	header .nav {
+		display: flex;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    left: 0;
+	    height: 100vh;
+	    flex-direction: column;
+	    text-align: center;
+	    background: url(../images/nav-bgd.png);
+	    background-size: cover;
+	    background-position: center;
+	    padding-top: 110px;
+
+	    opacity: 0;
+	    z-index: -1;
+	    pointer-events: none;
+	}
+
+	header .nav.open_nav {
+		opacity: 1;
+	    z-index: 1;
+	    pointer-events: auto;
+	}
+
+	header .nav li {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+
+	header .nav a {
+		background-size: contain;
+		background: url(../images/nav-btn.png);
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    width: 220px;
+	    height: 70px;
+	    line-height: 65px;
+	    padding: 0;
+		font-family: 'lowan';
+		font-size: 25px;
+		color: #f0d86d;
+	}
+
+	.a_gate .bottle-c img {
+		display: none;
+	}
+
+	.bottle_wrap-1 {
+		position: relative;
+	}
+
+	.bottle_wrap-1 .bottle_table {
+		position: absolute;
+		bottom: 7%;
+		z-index: 5;
+    	width: 100%;
+	}
+	.h_wrap_left,
+	.h_wrap_right {
+		width: 100%;
+	}
+
+	.h_wrap_right img {
+	    padding-top: 0;
+	}
+
+	.lav_social ul {
+		margin: 0;
+	}
+
+	.lav_social p, .lav_social a,
+	.bottom_img .lav_social li:first-child a {
+		line-height: inherit;
+	}
+
+	.bottom_img .lav_social li:first-child a {
+		font-size: 10px;
+	}
+
+	.bottom_img .lav_social li {
+	    margin: 0;
+	    text-align: center;
+	}
+
+	.bottom_img .lav_social li:first-child {
+		margin-top: -7px;
+	}
+
+	.bottom_img .lav_social li img {
+		width: 70%;
+	}
+
+	.copy {
+	    font-size: 7px !important;
+	}
+
+	.home_wrap {
+		height: auto;
+	}
+
+	.bottom_img .lav_social {
+		width: 100%;
+		bottom: 7%;
+	}
+
+	.home_wrap .bottle-c {
+	    width: 60%;
+	}
+
+	.h_wrap_left p {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.bottom_img {
+	    position: relative;
+	    height: 155px;
+	}
+
+	.bottom_img img {
+		height: 100%;
+    	object-fit: cover;
+	}
+
+	.lav_board-mob {
+		display: block;
+		margin: auto;
+	}
+	.lav_board {
+		display: none;
+	}
+
+	.a_gate .a_logo .lav-img {
+	    max-width: 110px;
+	}
+	.center-all {
+		width: 100%;
+		background-size: 160%;
+	    background-position: 0px 0px;
+	}
+	.a_gate .a_gate_wrap {
+	    width: 100%;
+	    padding: 0 20px 25px;
+	}
+
+	.a_gate .a_logo {
+	    width: 60%;
+	    margin: auto;
+	}
+
+	.present_wrap {
+		height: auto;
+	}
+
+	.tv,
+	.stoni_f,
+	.bicikl,
+	.krigle,
+	.majice {
+		position: static;
+		width: 35%;
+		margin: auto;
+	}
+
+	.krigle {
+		padding: 50px 0;
+		width: 40%;
+	}
+
+	.present_box {
+		display: flex;
+		flex-direction: column;
+		padding: 60px 0 215px;
+	}
+
+	.present_wrap .bottom_img {
+		width: 100%;
+		position: absolute;
+	    bottom: 0;
+	    z-index: 5;
+	}
+
+	.present_wrap .bottom_img img {
+		width: 100%;
+	}
+
+	.present_wrap .bottom_img .lav_social {
+	    bottom: 5%;
+	}
+
+	/* Nagrade */
+
+	.present_wrap .a_logo {
+		width: auto;
+	}
+
+	.present_wrap .a_logo {
+		position: static;
+    	margin: auto;
+    	padding-top: 15%;
+	}
+
+	.present_wrap .lav-img {
+		display: none;
+	}
+
+	.present_wrap .lav-img-mob {
+		display: block;
+	}
+
+	.present_wrap .bottom_img {
+		height: 245px;
+	}
+
+	/* Pravilnik */
+
+	.pravilnik {
+		height: auto;
+	}
+	.pr_wrap {
+	    position: static;
+	    transform: translate(0);
+	    width: 100%;
+	    margin-top: 15%;
+	}
+
+	/* Rang lista */
+
+	.rang_lista {
+		height: auto;
+	}
+
+	.print,
+	.kaktus {
+		display: none;
+	}
+	.rang-list {
+		display: none;
+	}
+	.rang-list_mobile {
+		display: block;
+		width: 100%;
+	}
+
+	.rang_lista .rang_wrap {
+	    width: 60%;
+	    margin: auto;
+	    padding: 0;
+	}
+
+	.winners-wrap {
+		top: 25%;
+	    left: 3%;
+	    width: 58.4vw;
+	    height: 75vw;
+	}
+	.winners_heading li {
+	    font-size: 1.8vw;
+	}
+
+	.uputstvo_wrap {
+	    padding: 0 0 8%;
+	    background: transparent;
+	}
+
+	.uputstva .bottom_img {
+	    background: url(../images/uputstva-pozadina.png);
+	    height: 165px;
+	}
+
+	.refist-form {
+		width: 100%
+	}
+	.refist-form {
+		padding-bottom: 0;
+	}
+
+	.refist-form form {
+	    top: 55%;
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 600px) {
+	.a_login_form {
+		margin-top: 10%;
+	}
+	.a_gate .a_logo .lav-img {
+	    max-width: 95px;
+	}
+	.custom-select-wrapper {
+	    padding: 7px 0;
+	}
+	.custom-select-trigger {
+	    font-size: 16px;
+	}
+	.form_select .btn button {
+	  font-size: 25px;
+	  padding: 6px 35px;
+	}
+	.form_select .btn button {
+	  font-size: 18px;
+	  margin-top: 25px;
+	}
+	.center-all {
+	    background-size: cover;
+	    background-position: left;
+	    padding: 20px 0;
+	}
+	.mob_bottle {
+	    display: block;
+	    width: 55%;
+	    margin: auto;
+	}
+	.lav_social ul {
+	    margin-bottom: 0;
+	}
+	.form_select {
+	    width: 90%;
+	}
+	.a_gate {
+		height: auto;
+	}
+	.h_wrap_left {
+	    padding: 125px 20px 0;
+	}
+	.h_wrap_left p {
+		font-size: 15px;
+	}
+	.code_enter button, .refist-form button {
+		text-transform: uppercase;
+		padding: 10px 30px;
+	    font-size: 13px;
+	    margin: 25px 0;
+	}
+
+	.present_wrap,
+	.pravilnik,
+	.rang_lista {
+		background: url(../images/nagrada-mob-bgd.png);
+		background-position: center;
+		background-size: cover;
+	}
+
+	.present_wrap .a_logo {
+		padding-top: 125px;
+	}
+
+	.present_box {
+	    padding: 45px 0 235px;
+	}
+
+	.present_box {
+	    padding: 150px 0 235px;
+	}
+	.tv, .stoni_f, .bicikl, .krigle, .majice {
+		width: 40%;
+	}
+	.krigle {
+		width: 50%;
+	}
+	.stoni_f {
+		margin-top: -50px;
+    	margin-bottom: 30px;
+	}
+
+	.pravilnik_logo {
+	    width: 70%;
+	    top: -1%;
+	}
+
+	.pravilnik .pr_wrap {
+		margin-top: 135px;
+		padding-bottom: 130px;
+	}
+
+	.p_pravilnik {
+	    width: 47%;
+	}
+
+	.p_pravilnik_can {
+	    width: 40%;
+	    bottom: 8%;
+	}
+
+	.pr_content {
+		top: 40%;
+	    font-size: 14px;
+	    height: 30.5vw;
+	    width: 90%;
+	    height: 131vw;
+	}
+
+	.pr_content h2 {
+	    font-size: 17px;
+	    margin: 10px 0;
+	}
+
+
+	.p_window {
+		display: none;
+	}
+	.p_window-mobile {
+		display: block;
+		margin-top: 125px;
+		width: 100%;
+	}
+
+	.rang_lista .rang_wrap {
+	    width: 100%;
+	    margin-top: 120px;
+	    padding: 0;
+	}
+
+	.winners-wrap {
+	    top: 25%;
+	    left: 3%;
+	    width: 96.4vw;
+	    height: 125vw;
+	}
+
+	.winners_heading li {
+	    font-size: 2vw;
+	}
+
+	.winners_list li {
+	    font-size: 1.7vw;
+	}
+
+	.rang_lista .bottom_img {
+		position: absolute;
+	}
+
+	.sprej {
+	    bottom: 5%;
+	    width: 40%;
+	    right: 30%;
+	}
+
+	.paper_wrap li img {
+	    width: 50%;
+	}
+
+	.uputstvo_logo {
+	    width: 35%;
+	}
+
+	.paper_wrap li {
+	    padding: 50px 25px;
+	}
+
+	.paper_wrap li p {
+		width: 50% !important;
+		font-size: 14px;
+	}
+
+	.paper_wrap li {
+	    padding: 30px 25px;
+	}
+
+	.paper_wrap li:first-child::after, .paper_wrap li:nth-child(3)::after {
+	    right: 13%;
+	    background-repeat: no-repeat;
+	    top: 50vw;
+	}
+
+	.paper_wrap li:nth-child(2)::after {
+	    left: 20%;
+	    top: 55vw;
+	}
+
+	.uputstva .bottom_img {
+	    height: 185px;
+	}
+
+
+	.paper_wrap li:first-child p,
+	.paper_wrap li:nth-child(3) p {
+	    text-align: left;
+	}
+
+	.paper_wrap li:nth-child(2) p,
+	.paper_wrap li:nth-child(4) p {
+		text-align: right;
+	}
+
+	.refist-form form {
+	    top: 60%;
+	}
+
+	.refist-form button {
+		margin-top: 10px;
+	}
+
+	.refist-form form {
+		width: 70%;
+	}
+
+	.refist-form form input[type="text"] {
+		margin: 5px 0;
+	}
+
+
+}
+
+@media only screen and (max-width: 480px) {
+	.present_box {
+	   padding: 40px 0 210px;
+	}
+	.tv, .stoni_f, .bicikl, .krigle, .majice {
+	    width: 90%;
+	}
+	.krigle {
+	    width: 100%;
+	}
+	.present_wrap .bottom_img .lav_social {
+	    bottom: 6%;
+	}
+	.present_wrap .bottom_img {
+	    height: 217px;
+	}
+	.present_wrap .bottom_img .lav_social {
+	    bottom: 5%;
+	}
+	.rang_lista .rang_wrap {
+	    padding-bottom: 35%;
+	}
+	.sprej {
+	    width: 50%;
+	    right: 27%;
+	}
+	.winners_heading li {
+	    font-size: 2.5vw;
+	}
+	.winners_list li {
+	    font-size: 2.2vw;
+	}
+	.winners-wrap {
+	    top: 21%;
+	}
+	.uputstvo_logo {
+	    margin-top: 120px;
+	    width: 50%;
+	}
+
+	.paper_wrap li:first-child::after, .paper_wrap li:nth-child(3)::after {
+	    right: 25%;
+	    background-repeat: no-repeat;
+	    top: 54vw;
+	    width: 35px;
+	    height: 35px;
+	    background-size: 100%;
+	}
+
+	.paper_wrap li:nth-child(2)::after {
+	    left: 20%;
+	    top: 60vw;
+	    width: 30px;
+	    height: 35px;
+	    background-size: 100% 100%;
+	}
+	.uputstva .bottom_img {
+		background: transparent;
+	}
+	.uputstvo_wrap {
+		padding: 0;
+	}
+	.uputstva .bottom_img {
+	    height: 210px;
+	}
+
+	.uputstvo_cetka {
+	    bottom: 65px;
+	    width: 20%;
+	}
+
+	.regist-form {
+		display: none;
+	}
+
+	.regist-form-mobile {
+		display: block;
+		width: 100%;
+	}
+	.refist-form form {
+	    width: 90%;
+	}
+
+	.refist-form form input[type="text"] {
+	    margin: 10px 0;
+	}
+	.refist-form form input[type="text"] {
+	    height: 50px;
+	}
+	.refist-form button {
+	    margin-top: 30px;
+	}
+	.refist-form .check {
+	    margin-top: 15px;
+	}
+	.refist-form p {
+	    font-size: 16px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
