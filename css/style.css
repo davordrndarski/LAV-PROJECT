@@ -2264,8 +2264,8 @@ header .nav a {
         top: 21%;
     }
     .uputstvo_logo {
-        margin-top: 120px;
-        width: 50%;
+        margin-top: 129px;
+    	width: 65%;
     }
 
     .paper_wrap li:first-child::after, .paper_wrap li:nth-child(3)::after {
