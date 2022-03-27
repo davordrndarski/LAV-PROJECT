@@ -140,6 +140,10 @@ a {
     font-size: 1.04vw;
 }
 
+.a_gate .bottom_img {
+	display: none;
+}
+
 .lav_social ul {
     display: flex;
     align-items: center;
@@ -1710,7 +1714,13 @@ header .nav a {
     .bottom_img .lav_social li {
         margin: 0;
         text-align: center;
+
+        flex: 1;
     }
+
+    .lav_social ul a {
+	    font-size: 25px;
+	}
 
     .bottom_img .lav_social li:first-child {
         margin-top: -7px;
@@ -1917,6 +1927,7 @@ header .nav a {
 @media only screen and (max-width: 600px) {
     .a_login_form {
         margin-top: 10%;
+    	margin-bottom: 10%;
     }
     .a_gate .a_logo .lav-img {
         max-width: 95px;
@@ -2138,6 +2149,86 @@ header .nav a {
 }
 
 @media only screen and (max-width: 480px) {
+
+	/* Age gate */
+
+	.a_gate .mob_bottle {
+	    width: 75%;
+	}
+
+	.center-all {	
+    	background: url(../images/age-mobile.png);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    padding-bottom: 100%;
+	    background-position: bottom;
+	}
+
+	.a_gate .bottom_img {
+		display: block;
+	    position: absolute;
+	    width: 100%;
+	    bottom: 15px;
+	    left: 0;
+	}
+
+
+	.a_gate .lav_social {
+		display: none;
+	}
+
+	.a_gate .bottom_img .lav_social {
+		display: block;
+	}
+
+
+	.a_gate .lav_social a {
+	    font-size: 12px;
+	}
+
+
+	.a_gate .bottle-c img {
+	    display: block;
+	}
+
+	.a_gate {
+		background: url(../images/lav-mob-pozadina.png);
+	    background-position: center;
+	    background-size: cover;
+	}
+	.lav_table {
+		width: 100%;
+	}
+
+	.lav_table {
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: left;
+	    height: 500px;
+	}
+
+	.bottle-c {
+	    left: 53%;
+	    width: 75%;
+	    bottom: 60px;
+	}
+
+	.a_gate .lav_social {
+		position: absolute;
+	    bottom: 0;
+	    left: 50%;
+	    transform: translate(-50%);
+	}
+
+	.soc {
+		font-size: 25px !important;
+	}
+
+	.a_gate .lav_social ul {
+	    width: 82%;
+	    margin: auto;
+	}
+
     .present_box {
        padding: 40px 0 210px;
     }
