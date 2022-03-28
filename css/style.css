@@ -1552,6 +1552,14 @@ header .nav a {
         width: 30%;
     }
 
+    .uputstvo_logo {
+        display: none;
+    }
+
+    .uputstvo_logo_mobile {
+        display: block;
+    }
+
     .uputstva {
         height: auto;
     }
