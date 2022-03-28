@@ -940,6 +940,10 @@ header .nav a {
     display: none;
 }
 
+.uputstva .mobile_mainTable {
+    display: none;
+}
+
 .winners_list li:first-child {
     text-align: center;
 }
