@@ -2265,7 +2265,15 @@ header .nav a {
 
     .rang_lista .bottom_img {
         position: absolute;
-        height: 222px;
+        height: 200px;
+    }
+
+    .rang_lista .lav-img {
+        display: none;
+    }
+
+    .mobile_mainTable {
+        display: block;
     }
 
     .sprej {
