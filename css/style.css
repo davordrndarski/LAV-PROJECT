@@ -1794,6 +1794,10 @@ header .nav a {
         padding: 0 20px;
     }
 
+    .number {
+        font-family: 'Poppins-Medium';
+    }
+
     header {
         padding: 0 20px;
         position: absolute;
