@@ -147,6 +147,11 @@ a {
 
 .a_gate .bottom_img {
 	display: none;
+	width: 100%;
+}
+
+.lav-img {
+	width: 100%;
 }
 
 .lav_social ul {
@@ -460,6 +465,7 @@ header .nav a {
 .bottom_img {
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .bottom_img .lav_social {
@@ -840,6 +846,10 @@ header .nav a {
     width: 28.4vw;
     height: 22vw;
     overflow: scroll;
+}
+
+.rang-list {
+	width: 50vw;
 }
 
 .rang-list_mobile {
