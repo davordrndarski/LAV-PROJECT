@@ -2343,7 +2343,7 @@ header .nav a {
 
     .paper_wrap li p {
         width: 50% !important;
-        font-size: 15px;
+        font-size: 16px;
         
     }
 
@@ -2681,7 +2681,7 @@ header .nav a {
     }
 
     .paper_wrap li:first-child p {
-        left: 55%;
+        width: 58% !important;
     }
 
     .paper_wrap li:first-child .mob-icons {
@@ -2730,7 +2730,7 @@ header .nav a {
 
     .paper_wrap li:nth-child(3) {
         bottom: 0;
-        padding-top: 42%;
+        padding-top: 46%;
     }
 
     .paper_wrap li:nth-child(3) .mob-icons {
