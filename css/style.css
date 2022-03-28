@@ -732,7 +732,7 @@ header .nav a {
 }
 
 .pr_content h2 {
-    font-size: 1.1vw;
+    font-size: 1vw;
     color: #00264a;
     margin: 0;
 }
@@ -2333,6 +2333,10 @@ header .nav a {
 	body {
 	    font-family: 'Poppins-Regular';
 	}
+
+    .a_login_form h1 {
+        margin-top: 0;
+    }
 
 	.p_pravilnik {
 	    width: 55%;
