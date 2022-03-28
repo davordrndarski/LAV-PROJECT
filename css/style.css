@@ -2580,7 +2580,7 @@ header .nav a {
 	}
 
 	.a_gate .lav_social li:first-child a {
-	    font-size: 10px;
+	    font-size: 10px !important;
 	}
 
     .present_box {
