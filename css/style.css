@@ -1120,6 +1120,9 @@ header .nav a {
 /* RESPONSIVE */
 
 @media only screen and (min-width: 1921px) {
+    .winners-wrap {
+        top: 37%;
+    }
 	.a_gate .bottle-c {
 	    width: 32%;
 	}
