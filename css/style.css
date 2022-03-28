@@ -1077,6 +1077,9 @@ header .nav a {
 	.main-logo {
 		width: auto;
 	}
+	.paper_wrap li img {
+	    width: 87%;
+	}
     .a_gate .a_logo {
         width: 70%;
         margin: auto;
