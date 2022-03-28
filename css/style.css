@@ -2276,6 +2276,10 @@ header .nav a {
         display: block;
     }
 
+    .rang_lista .rang_wrap {
+        padding-bottom: 65%;
+    }
+
     .sprej {
         bottom: 5%;
         width: 40%;
