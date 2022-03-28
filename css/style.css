@@ -1887,7 +1887,7 @@ header .nav a {
     }
 
     .home_wrap .bottle-c {
-        width: 60%;
+        width: 75%;
     }
 
     .h_wrap_left p {
@@ -1897,7 +1897,7 @@ header .nav a {
 
     .bottom_img {
         position: relative;
-        height: 155px;
+        height: 200px;
     }
 
     .bottom_img img {
@@ -2388,12 +2388,12 @@ header .nav a {
     }
 
     .h_wrap_left p {
-            font-size: 15px;
-    padding: 0 3px;
+        font-size: 15px;
+        padding: 0 3px;
     }
 
     .enterCode {
-        width: 75%;
+        width: 65%;
     }
 
     .mob_window {
