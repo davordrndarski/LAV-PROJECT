@@ -1878,8 +1878,12 @@ header .nav a {
         flex: 1;
     } 
 
+    .a_gate .lav_social  {
+        padding: 0 8%;
+    }
+
     .a_gate .lav_social li:nth-child(2) {
-        max-width: 80px;
+        max-width: 90px;
     }
 
     .copy {
@@ -2112,6 +2116,9 @@ header .nav a {
         margin-bottom: 0;
         padding: 0 7% !important;
     }
+
+
+
     .form_select {
         width: 90%;
     }
