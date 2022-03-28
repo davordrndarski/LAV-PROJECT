@@ -1909,7 +1909,7 @@ header .nav a {
 
     .lav_social ul a,
     .a_gate .lav_social ul a {
-	    font-size: 25px;
+	    font-size: 25px !important;
 	}
 
     .bottom_img .lav_social li:first-child {
