@@ -2246,6 +2246,7 @@ header .nav a {
         width: 100%;
         margin-top: 120px;
         padding: 0;
+        padding-bottom: 65%;
     }
 
     .winners-wrap {
@@ -2276,9 +2277,6 @@ header .nav a {
         display: block !important;
     }
 
-    .rang_lista .rang_wrap {
-        padding-bottom: 65%;
-    }
 
     .sprej {
         bottom: 5%;
