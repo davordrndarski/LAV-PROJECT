@@ -2141,6 +2141,7 @@ header .nav a {
 
     .rang_lista .bottom_img {
         position: absolute;
+        height: 222px;
     }
 
     .sprej {
@@ -2386,11 +2387,12 @@ header .nav a {
         bottom: 5%;
     }
     .rang_lista .rang_wrap {
-        padding-bottom: 35%;
+        padding-bottom: 52%;
     }
     .sprej {
         width: 60%;
     	right: 24%;
+            bottom: 80px;
     }
     .winners_heading li {
         font-size: 3vw;
@@ -2428,7 +2430,7 @@ header .nav a {
     .uputstvo_wrap {
         padding: 0;
     }
-    .uputstva .bottom_img {
+    .uputstva .bottom_img  {
         height: 222px;
     }
 
