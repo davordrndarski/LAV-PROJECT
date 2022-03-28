@@ -686,6 +686,10 @@ header .nav a {
 	width: 100vw;
 }
 
+.p_pravilnik_mobile {
+    display: none;
+}
+
 .p_window-mobile {
     display: none;
 }
@@ -2276,7 +2280,7 @@ header .nav a {
     .mobile_mainTable {
         display: block !important;
     }
-    
+
     .paper_wrap li img {
         width: 50%;
     }
