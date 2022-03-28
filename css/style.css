@@ -2337,7 +2337,10 @@ header .nav a {
 
     .paper_wrap li {
         padding: 30px 25px;
+        position: relative;
     }
+
+
 
     .paper_wrap li:first-child::after, .paper_wrap li:nth-child(3)::after {
         right: 13%;
@@ -2358,11 +2361,17 @@ header .nav a {
     .paper_wrap li:first-child p,
     .paper_wrap li:nth-child(3) p {
         text-align: left;
+        margin: 0 auto 0 0;
     }
 
     .paper_wrap li:nth-child(2) p,
     .paper_wrap li:nth-child(4) p {
         text-align: right;
+    }
+
+
+    .paper_wrap li:first-child img {
+        margin-left: 0;
     }
 
     .refist-form form {
