@@ -1869,9 +1869,14 @@ header .nav a {
         margin-top: -7px;
     }
 
-    .bottom_img .lav_social li img {
+    .bottom_img .lav_social li img,
+    .a_gate .lav_social li img {
         width: 70%;
     }
+
+    .a_gate .lav_social li {
+        flex: 1;
+    } 
 
     .copy {
         font-size: 7px !important;
@@ -2101,7 +2106,7 @@ header .nav a {
     }
     .lav_social ul {
         margin-bottom: 0;
-        padding: 0 7%;
+        padding: 0 7% !important;
     }
     .form_select {
         width: 90%;
