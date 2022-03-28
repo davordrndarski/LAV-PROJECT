@@ -1079,6 +1079,9 @@ header .nav a {
 /* RESPONSIVE */
 
 @media only screen and (min-width: 1921px) {
+	.a_gate .bottle-c {
+	    width: 32%;
+	}
 	.main-logo {
 		width: auto;
 	}
