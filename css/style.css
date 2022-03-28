@@ -1085,6 +1085,16 @@ header .nav a {
         margin-top: 90px;
     }
 
+    .paper_wrap li:first-child::after {
+    	right: -7%;
+    }
+    .paper_wrap li:nth-child(2)::after {
+    	right: -6%;
+    }
+    .paper_wrap li:nth-child(3)::after {
+    	right: -12%;
+    }
+
 }
 
 
