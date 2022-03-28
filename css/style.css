@@ -1741,7 +1741,7 @@ header .nav a {
         background-color: #233d83;
         content: "";
         display: block;
-        height: 2px;
+        height: 3px;
         left: calc(50% - 13px );
         position: absolute;
         top: calc(50% - 1px );
@@ -1756,7 +1756,7 @@ header .nav a {
         background-color: #233d83;
         content: "";
         display: block;
-        height: 2px;
+        height: 3px;
         position: absolute;
         -webkit-transform-origin: 50% 50%;
         transform-origin: 50% 50%;
@@ -2764,7 +2764,7 @@ header .nav a {
         top: 50%;
     }
 
-    
+
 
 
 }
