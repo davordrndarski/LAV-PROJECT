@@ -2202,7 +2202,7 @@ header .nav a {
         height: auto !important;
         bottom: 0;
         position: absolute;
-        width: 59%;
+        width: 61%;
         left: -26px;
     }
 
@@ -2218,7 +2218,7 @@ header .nav a {
 	    display: block;
 	    z-index: 5;
 	    position: absolute;
-	    bottom: -15px;
+	    bottom: -8px;
 	    right: -47px;
 	    width: 60%;
 	    height: auto !important;
@@ -2399,7 +2399,7 @@ header .nav a {
     .tabla-mala {
         position: absolute;
         bottom: 0;
-        height: 200px !important;
+        height: 206px !important;
         display: block;
     }
 
