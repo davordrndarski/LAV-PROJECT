@@ -959,6 +959,10 @@ header .nav a {
     z-index: -1;
 }
 
+.uputstvo_logo_mobile {
+    display: none;
+}
+
 .uputstvo_logo {
     width: 16%;
     margin-top: 60px;
