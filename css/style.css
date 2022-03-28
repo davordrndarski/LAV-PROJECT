@@ -1100,6 +1100,9 @@ header .nav a {
     .paper_wrap li:nth-child(3)::after {
     	right: -12%;
     }
+    .lav_social img {
+    	width: 170px;
+    }
 
 }
 
