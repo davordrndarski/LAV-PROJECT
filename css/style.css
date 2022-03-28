@@ -2101,7 +2101,7 @@ header .nav a {
     }
     .lav_social ul {
         margin-bottom: 0;
-        width: 75%;
+        padding: 0 7%;
     }
     .form_select {
         width: 90%;
