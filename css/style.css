@@ -1878,6 +1878,10 @@ header .nav a {
         flex: 1;
     } 
 
+    .a_gate .lav_social li:nth-child(2) {
+        max-width: 80px;
+    }
+
     .copy {
         font-size: 7px !important;
     }
