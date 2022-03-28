@@ -123,7 +123,7 @@ a {
 
 .a_login_form {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 3%;
 }
 
 .mob_bottle {
@@ -179,6 +179,31 @@ a {
 .copy {
     font-size: 0.67vw !important;
 }
+
+.a_gate .lav_social li:first-child a {
+	margin: 0;
+    color: #fff;
+    font-family: 'Poppins-Regular';
+    font-size: 0.93vw;
+    line-height: 1.7;
+}
+
+.a_gate .lav_social ul a {
+    color: #fff;
+    font-size: 1.56vw;
+    margin: 0 7px;
+}
+
+.a_gate .lav_social li {
+    margin: 0 7px;
+}
+
+.a_gate .lav_social ul {
+    padding-right: 12%;
+    position: relative;
+    top: 5vw;
+}
+
 
 /* Bottle section */
 
@@ -1303,9 +1328,6 @@ header .nav a {
 
 
 @media only screen and (max-width: 1250px) {
-    .a_gate {
-        height: auto;
-    }
     .a_gate .a_gate_wrap {
         padding: 50px 90px 40px 30px;
     }
@@ -1366,7 +1388,18 @@ header .nav a {
     }
 }
 
+@media only screen and (max-width: 1160px) {
+	.a_gate .lav_social ul {
+	    padding-right: 0;
+	    position: relative;
+	    top: auto;
+	}
+}
+
 @media only screen and (max-width: 1100px) {
+	.a_gate {
+        height: auto;
+    }
     .a_gate {
         background-size: cover;
     }
@@ -2391,7 +2424,8 @@ header .nav a {
 
 
 	.a_gate .lav_social {
-		display: none;
+		width: 100%;
+		display: flex;
 	}
 
 	.a_gate .bottom_img .lav_social {
@@ -2442,8 +2476,17 @@ header .nav a {
 	}
 
 	.a_gate .lav_social ul {
-	    width: 82%;
+	    width: 100%;
 	    margin: auto;
+	    margin-bottom: 15px;
+	}
+
+	.a_gate .lav_social li {
+	    margin: 0 2px;
+	}
+
+	.a_gate .lav_social li:first-child a {
+	    font-size: 10px;
 	}
 
     .present_box {
