@@ -936,6 +936,10 @@ header .nav a {
     display: flex;
 }
 
+.rang_lista .mobile_mainTable {
+    display: none;
+}
+
 .winners_list li:first-child {
     text-align: center;
 }
@@ -2032,6 +2036,14 @@ header .nav a {
         display: block;
     }
 
+    .uputstva .lav-img {
+        display: none;
+    }
+
+    .uputstva  .mobile_mainTable.lav-img {
+        display: block;
+    }
+
     .present_wrap .bottom_img {
         height: 245px;
     }
@@ -2620,14 +2632,15 @@ header .nav a {
     }
     .uputstvo_wrap {
         padding: 0;
+        padding-bottom: 20%;
     }
     .uputstva .bottom_img  {
         height: 222px;
     }
 
     .uputstvo_cetka {
-        bottom: 66px;
-    	width: 27%;
+        bottom: 63px;
+        width: 35%;
     }
 
     .regist-form {
@@ -2655,6 +2668,96 @@ header .nav a {
     }
     .refist-form .check {
         margin-top: 15px;
+    }
+
+    /* */
+
+    .number {
+        padding-bottom: 20px;
+    }
+
+    .paper_wrap li img {
+        position: absolute;
+    }
+
+    .paper_wrap li:first-child p {
+        left: 55%;
+    }
+
+    .paper_wrap li:first-child .mob-icons {
+        right: 0;
+        width: 72%;
+        top: 72px;
+    }
+
+    .paper_wrap li:nth-child(2) {
+        bottom: 0;
+        padding-top: 90px;
+    }
+
+    .paper_wrap li:first-child::after {
+        right: 21%;
+        background-repeat: no-repeat;
+        top: 71vw;
+        width: 35px;
+        height: 35px;
+        background-size: 100%;
+    }
+
+    .paper_wrap li:nth-child(2) p, .paper_wrap li:nth-child(4) p {
+        text-align: right;
+        margin: 0 0 0 auto;
+    }
+
+    .paper_wrap li:nth-child(2) .mob-icons {
+        width: 70%;
+        left: 10%;
+        top: 52%;
+    }
+
+    .paper_wrap li:nth-child(2) p {
+        width: 51% !important
+        margin-top: 15px;
+    }
+
+    .paper_wrap li:nth-child(2)::after {
+        left: 32%;
+        top: 92vw;
+        width: 30px;
+        height: 35px;
+        background-size: 100% 100%;
+    }
+
+    .paper_wrap li:nth-child(3) {
+        bottom: 0;
+        padding-top: 42%;
+    }
+
+    .paper_wrap li:nth-child(3) .mob-icons {
+        position: absolute;
+        right: 0;
+        width: 70%;
+        top: 55%;
+    }
+
+    .paper_wrap li:nth-child(3)::after {
+        top: 105vw;
+    }
+
+    .paper_wrap li:nth-child(4) {
+        bottom: 0;
+        padding-top: 25%;
+    }
+
+    .paper_wrap li:nth-child(4) {
+        bottom: 0;
+        padding-top: 25%;
+    }
+
+    .paper_wrap li:nth-child(4) .mob-icons {
+        width: 70%;
+        left: 0;
+        top: 50%;
     }
 
 
