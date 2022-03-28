@@ -944,6 +944,10 @@ header .nav a {
     padding: 0 25px;
 }
 
+.paper_wrap li img {
+	width: 100vw;
+}
+
 .number {
     display: none;
     color: #00264a !important;
