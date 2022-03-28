@@ -1074,6 +1074,9 @@ header .nav a {
 /* RESPONSIVE */
 
 @media only screen and (min-width: 1921px) {
+	.main-logo {
+		width: auto;
+	}
     .a_gate .a_logo {
         width: 70%;
         margin: auto;
