@@ -1120,6 +1120,22 @@ header .nav a {
 	    bottom: -12vw;
 	}
 
+	.pr_content {
+	    height: 29vw;
+	}
+	.rang_lista .rang_wrap {
+	    padding-top: 6%;
+	}
+	.h_wrap_left {
+	    padding: 9% 40px 0;
+	}
+	.home_wrap .bottle-c {
+		width: 40%;
+	}
+	.h_wrap_right {
+	    padding-top: 5%;
+	}
+
 }
 
 
