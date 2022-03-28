@@ -736,6 +736,10 @@ header .nav a {
     z-index: 10;
 }
 
+.regist-form {
+	width: 100vw;
+}
+
 .refist-form form {
     position: absolute;
     left: 50%;
@@ -760,6 +764,7 @@ header .nav a {
     padding: 0 10px;
     font-size: 0.9vw;
     color: #0f3376;
+    font-family: 'Poppins-Regular';
 }
 
 .refist-form p {
