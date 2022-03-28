@@ -1558,6 +1558,9 @@ header .nav a {
 
     .uputstvo_logo_mobile {
         display: block;
+        width: 30%;
+        margin: auto;
+        margin-top: 75px;
     }
 
     .uputstva {
