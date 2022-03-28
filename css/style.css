@@ -1481,6 +1481,9 @@ header .nav a {
     header {
         position: absolute;
     }
+    .a_gate .lav_social ul a {
+        font-size: 20px;
+    }
     .a_login_form h1 {
         font-size: 28px;
     }
