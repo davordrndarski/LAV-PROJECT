@@ -2020,6 +2020,8 @@ header .nav a {
 
     .present_wrap .a_logo {
         padding-top: 125px;
+	    padding-left: 20px;
+	    padding-right: 20px;
     }
 
     .present_box {
