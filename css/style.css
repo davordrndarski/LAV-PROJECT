@@ -1892,7 +1892,8 @@ header .nav a {
         line-height: inherit;
     }
 
-    .bottom_img .lav_social li:first-child a {
+    .bottom_img .lav_social li:first-child a,
+    .a_gate .lav_social li:first-child a {
         font-size: 10px;
     }
 
@@ -1903,7 +1904,8 @@ header .nav a {
         flex: 1;
     }
 
-    .lav_social ul a {
+    .lav_social ul a,
+    .a_gate .lav_social ul a {
 	    font-size: 25px;
 	}
 
