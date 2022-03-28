@@ -2194,7 +2194,16 @@ header .nav a {
     }
 
     .p_pravilnik {
-        width: 47%;
+        display: none;
+    }
+
+    .p_pravilnik_mobile {
+        display: block;
+        height: auto !important;
+        bottom: 0;
+        position: absolute;
+        width: 59%;
+        left: -26px;
     }
 
     .p_pravilnik_can {
