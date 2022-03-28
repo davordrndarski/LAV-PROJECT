@@ -1909,8 +1909,12 @@ header .nav a {
 
     .lav_social ul a,
     .a_gate .lav_social ul a {
-	    font-size: 25px !important;
+	    font-size: 25px;
 	}
+
+    .a_gate .lav_social ul a {
+        font-size: 25px !important;
+    }
 
     .bottom_img .lav_social li:first-child {
         margin-top: -7px;
