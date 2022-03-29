@@ -1595,6 +1595,7 @@ header .nav a {
 
     .uputstva .mobile-uputstvo {
         display: block;
+        position: static;
     }
 
     .kaktus_1 {
