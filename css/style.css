@@ -633,6 +633,10 @@ header .nav a {
     left: 0%;
 }
 
+.tv {
+    display: none;
+}
+
 .stoni_f {
     position: absolute;
     width: 30%;
