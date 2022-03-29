@@ -2534,6 +2534,19 @@ header .nav a {
 
 @media only screen and (max-width: 480px) {
 
+    .tv_mob, .bicikl_mob, .stoni_f_mob, .krigle_mob {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .krigle_mob {
+        padding-right: 7% !important;
+    }
+
+    .majice {
+        width: 90% !important;
+    }
+
 	body {
 	    font-family: 'Poppins-Regular';
 	}
