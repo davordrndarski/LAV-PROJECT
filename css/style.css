@@ -688,10 +688,10 @@ header .nav a {
 
 .p_pravilnik {
     position: absolute;
-    width: 26%;
+    width: 21%;
     bottom: 0;
     z-index: 5;
-    left: -5%;
+    left: -1%;
 }
 
 .pr_wrap {
