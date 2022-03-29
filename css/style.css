@@ -635,9 +635,10 @@ header .nav a {
 
 .stoni_f {
     position: absolute;
-    width: 25%;
+    width: 30%;
     right: 28%;
-    bottom: 25%;
+    bottom: 23%;
+    z-index: 5;
 }
 
 .bicikl {
