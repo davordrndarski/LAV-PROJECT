@@ -1048,9 +1048,7 @@ header .nav a {
     display: none;
 }
 
-.uputstva .bottom_img {
-    height: 280px;
-}
+
 
 .uputstva .mobile_mainTable {
     height: 100%;
@@ -1323,9 +1321,7 @@ header .nav a {
     .paper_wrap li:first-child {
         bottom: 0;
     }
-    .uputstva .bottom_img {
-        height: 320px;
-    }
+    
     .paper_wrap li:nth-child(2) {
         bottom: 1vw;
     }
