@@ -1323,7 +1323,7 @@ header .nav a {
         width: 98%;
     }
     .paper_wrap li:first-child {
-        bottom: 0;
+       bottom: -1vw;
     }
     
     .paper_wrap li:nth-child(2) {
@@ -1333,8 +1333,8 @@ header .nav a {
         top: 21%;
     }
     .paper_wrap li:nth-child(2) {
-        bottom: 1.5vw;
-    }
+    bottom: 1vw;
+}
     
     .paper_wrap li:nth-child(4) {
         bottom: -2vw;
