@@ -1156,6 +1156,10 @@ header .nav a {
 
 @media only screen and (min-width: 1921px) {
 
+    .bottle-c img {
+        min-width: 100%;
+    }
+
     .uputstva .bottom_img {
         height: 550px;
     }
@@ -2616,7 +2620,7 @@ header .nav a {
 	.bottle-c {
 	    left: 53%;
 	    width: 80%;
-	    bottom: 60px;
+	   bottom: 45px;
 	}
 
 	.a_gate .lav_social {
