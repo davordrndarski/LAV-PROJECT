@@ -636,8 +636,7 @@ header .nav a {
 .tv_mob,
 .bicikl_mob,
 .stoni_f_mob,
-.krigle_mob,
-.stoni_f {
+.krigle_mob {
     display: none;
 }
 
