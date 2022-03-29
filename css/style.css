@@ -2114,6 +2114,11 @@ header .nav a {
         width: 40%;
     }
 
+    .majice {
+        width: 60% !important;
+        padding-top: 10%;
+    }
+
     .present_box {
         display: flex;
         flex-direction: column;
