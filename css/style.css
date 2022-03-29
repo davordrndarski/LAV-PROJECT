@@ -1011,8 +1011,12 @@ header .nav a {
     text-align: center;
 }
 
-.uputstvo_wrap {
+.uputstvo_wrap .mobile-uputstvo {
+    display: none;
+}
 
+.uputstvo_wrap .desk-uputstvo {
+    display: block;
 }
 
 .uputstvo_logo_mobile {
