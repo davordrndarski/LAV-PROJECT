@@ -1265,6 +1265,24 @@ header .nav a {
 
 @media only screen and (max-width: 1600px) {
 
+    .bicikl {
+        top: -5%;
+    }
+
+    .tv {
+        top: 18%;
+    }
+
+    .majice {
+        right: 7%;
+        bottom: 27%;
+        width: 23%;
+    }
+
+    .stoni_f {
+        width: 33%;
+    }
+
     .kaktus_1 {
         bottom: 20%;
     }
