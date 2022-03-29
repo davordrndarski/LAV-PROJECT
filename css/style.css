@@ -500,6 +500,7 @@ header .nav a {
     transform: translate(-50%);
 }
 
+
 .bottom_img .lav_social li:first-child a {
     margin: 0;
     color: #fff;
@@ -550,7 +551,8 @@ header .nav a {
 }
 
 .code_enter button,
-.refist-form button  {
+.refist-form button,
+.next_btn {
     background: #233d83;
     border: 2px solid #233d83;
     color: #fff;
@@ -564,6 +566,13 @@ header .nav a {
     -o-transition: all .5s;
     transition: all .5s;
     margin-top: 20px;
+}
+
+.next_btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 55;
 }
 
 .code_enter button:hover,
@@ -750,6 +759,25 @@ header .nav a {
     height: 100vh;
     position: relative;
     overflow: hidden;
+}
+
+.registracija .lav-img {
+    position: relative;
+    z-index: 9;
+}
+
+.registracija .bottom_img .lav_social {
+    z-index: 10;
+}
+
+
+
+.kaktus_1 {
+    position: absolute;
+    right: 9%;
+    z-index: 5;
+    bottom: 21%;
+    width: 12%;
 }
 
 .regist-form-mobile {
@@ -940,9 +968,6 @@ header .nav a {
     display: none;
 }
 
-.uputstva .mobile_mainTable {
-    display: none;
-}
 
 .winners_list li:first-child {
     text-align: center;
@@ -964,7 +989,6 @@ header .nav a {
     position: relative;
     overflow: hidden;
     text-align: center;
-    z-index: -1;
 }
 
 .uputstvo_logo_mobile {
@@ -973,14 +997,15 @@ header .nav a {
 
 .uputstvo_logo {
     width: 16%;
-    margin-top: 60px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 
 .paper_wrap {
     display: flex;
     flex-wrap: wrap;
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
@@ -1003,8 +1028,17 @@ header .nav a {
     display: none;
 }
 
+.uputstva .bottom_img {
+    height: 280px;
+}
+
+.uputstva .mobile_mainTable {
+    height: 100%;
+}
+
+
 .paper_wrap li:first-child {
-    bottom: -3vw;
+    bottom: 0;
 }
 
 .paper_wrap li:first-child p{
@@ -1059,7 +1093,7 @@ header .nav a {
 }
 
 .paper_wrap li:nth-child(2){
-    bottom: -2vw;
+    bottom: 0.5vw;
 }
 
 .paper_wrap li:nth-child(2) p {
@@ -1070,7 +1104,7 @@ header .nav a {
 }
 
 .paper_wrap li:nth-child(3){
-    bottom: -2vw;
+    bottom: 1vw;
 }
 
 .paper_wrap li:nth-child(3) p {
@@ -1081,7 +1115,7 @@ header .nav a {
 }
 
 .paper_wrap li:nth-child(4){
-    bottom: -3vw;
+    bottom: -1vw;
 }
 
 .paper_wrap li p {
@@ -1109,17 +1143,22 @@ header .nav a {
 
 .uputstvo_cetka {
     position: absolute;
-    bottom: 8%;
+    bottom: 71px;
     z-index: 5;
     left: 50%;
     transform: translate(-50%);
-    width: 15%;
+    width: 12%;
 }
 
 
 /* RESPONSIVE */
 
 @media only screen and (min-width: 1921px) {
+
+    .uputstva .bottom_img {
+        height: 550px;
+    }
+
     .winners-wrap {
         top: 37%;
     }
@@ -1156,21 +1195,29 @@ header .nav a {
     	width: 170px;
     }
     .uputstvo_cetka {
-	    bottom: 8%;
+	    bottom: 7%;
 	    width: 13%;
 	}
 	.paper_wrap li:first-child {
-	    bottom: -12vw;
+	    bottom: -1vw;
 	}
 	.paper_wrap li:nth-child(2) {
-	    bottom: -11vw;
+	    bottom: 0;
 	}
 	.paper_wrap li:nth-child(3) {
-	    bottom: -11vw;
+	    bottom: 0;
 	}
 	.paper_wrap li:nth-child(4) {
-	    bottom: -12vw;
+	    bottom: -2vw;
 	}
+
+    .paper_wrap li:nth-child(4) p {
+        left: 53%;
+    }
+
+    .paper_wrap {
+        width: 93%;
+    }
 
 	.pr_content {
 	    height: 29vw;
@@ -1209,6 +1256,10 @@ header .nav a {
 }
 
 @media only screen and (max-width: 1600px) {
+
+    .kaktus_1 {
+        bottom: 20%;
+    }
     .h_wrap_left {
         padding: 90px 40px 0;
     }
@@ -1220,31 +1271,40 @@ header .nav a {
         padding-top: 10px;
     }
     .uputstvo_logo {
-        margin-top: 75px;
-        margin-bottom: -20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
     .paper_wrap {
-        width: 100%;
+        width: 98%;
     }
     .paper_wrap li:first-child {
-        bottom: -5vw;
+        bottom: 0;
+    }
+    .uputstva .bottom_img {
+        height: 235px;
+    }
+    .paper_wrap li:nth-child(2) {
+        bottom: 1vw;
     }
     .paper_wrap li:first-child p {
         top: 21%;
     }
     .paper_wrap li:nth-child(2) {
-        bottom: -4vw;
+        bottom: 1.5vw;
     }
     .paper_wrap li:nth-child(3) {
-        bottom: -3vw;
+        bottom: 2vw;
     }
     .paper_wrap li:nth-child(4) {
-        bottom: -4vw;
+        bottom: -1vw;
     }
     .paper_wrap li:first-child::after,
     .paper_wrap li:nth-child(2)::after,
     .paper_wrap li:nth-child(3)::after {
         right: -17%;
+    }
+    .paper_wrap li:nth-child(3)::after {
+        right: -29%;
     }
     .refist-form {
         top: 43%;
@@ -1252,6 +1312,9 @@ header .nav a {
     }
     .refist-form p {
         font-size: 1.2vw;
+    }
+    .uputstvo_cetka {
+        bottom: 63px;
     }
 
 }
@@ -1445,7 +1508,7 @@ header .nav a {
     .home_wrap .bottle-c {
         width: 40%;
     }
-    .code_enter button, .refist-form button {
+    .code_enter button, .refist-form button, .next_btn {
         padding: 5px 30px;
         font-size: 13px;
     }
@@ -1459,7 +1522,8 @@ header .nav a {
     .print {
         right: 3%;
     }
-    .kaktus {
+    .kaktus,
+    .kaktus_1 {
         bottom: 15%;
     }
     .winners-wrap {
@@ -1478,11 +1542,16 @@ header .nav a {
 }
 
 @media only screen and (max-width: 991px) {
+
+    .kaktus_1 {
+        display: none;
+    }
+
     header {
         position: absolute;
     }
     .a_gate .lav_social ul a {
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
     .a_login_form h1 {
         font-size: 28px;
@@ -1595,34 +1664,24 @@ header .nav a {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        padding-bottom: 3%;
     }
 
     .number {
-        display: block;
-        width: 100%;
-        text-align: center;
-        font-family: 'Poppins-Regular';
+        display: none;
     }
 
     .paper_wrap li p {
-        color: #00264a !important;
-        font-size: 15px;
-        width: 50% !important;
-        position: static;
-        transform: translate(0) !important;
-        width: 30% !important;
+        display: none;
     }
 
-    .paper_wrap li p span {
-        color: #00264a;
-    }
 
     .paper_wrap li img {
         width: 50%;
     }
 
     .uputstvo_wrap {
-        padding: 0 0 30%;
+        padding: 0 0 27%;
         background: url(../images/uputstva-pozadina.png);
     }
 
@@ -1630,29 +1689,19 @@ header .nav a {
         bottom: 0;
     }
     .uputstvo_cetka {
-        bottom: 4.4%;
+        bottom: 3.6%;
+        width: 16%;
     }
 
-    .paper_wrap li:first-child img {
-        margin-left: -10%;
 
-    }
 
     .paper_wrap li:first-child::after,
     .paper_wrap li:nth-child(3)::after {
-        background: url(../images/Plava-strelica-l-mob.png);
-        right: 24%;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 40vw;
+        display: none;
     }
 
     .paper_wrap li:nth-child(2)::after {
-        background: url(../images/Plava-strelica-r-mob.png);
-        left: 30%;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 45vw;
+        display: none;
     }
 
     .refist-form {
@@ -1808,6 +1857,10 @@ header .nav a {
         padding: 0 20px;
     }
 
+    .uputstvo_cetka {
+        bottom: 3.2%;
+    }
+
     .number {
         font-family: 'Poppins-Medium';
     }
@@ -1942,7 +1995,7 @@ header .nav a {
     }
 
     .bottom_img .lav_social {
-        width: 100%;
+        width: 60%;
         bottom: 7%;
     }
 
@@ -2117,7 +2170,7 @@ header .nav a {
 
     .uputstva .bottom_img {
         background: url(../images/uputstva-pozadina.png);
-        height: 165px;
+        height: 235px;
     }
 
     .refist-form {
@@ -2136,6 +2189,9 @@ header .nav a {
 
 
 @media only screen and (max-width: 600px) {
+    .bottom_img .lav_social {
+        width: 100%;
+    }
     .a_login_form {
         margin-top: 10%;
     	margin-bottom: 10%;
@@ -2186,7 +2242,7 @@ header .nav a {
     .h_wrap_left p {
         font-size: 15px;
     }
-    .code_enter button, .refist-form button {
+    .code_enter button, .refist-form button, .next_btn {
         text-transform: uppercase;
         padding: 10px 30px;
         font-size: 13px;
@@ -2346,7 +2402,7 @@ header .nav a {
     }
 
     .paper_wrap li img {
-        width: 50%;
+        width: 100%;
     }
 
     .uputstvo_logo {
@@ -2364,7 +2420,7 @@ header .nav a {
     }
 
     .paper_wrap li {
-        padding: 30px 25px;
+        padding: 30px 25px 0;
         position: relative;
     }
 
@@ -2648,7 +2704,7 @@ header .nav a {
     }
     .uputstvo_wrap {
         padding: 0;
-        padding-bottom: 20%;
+        padding-bottom: 10%;
     }
     .uputstva .bottom_img  {
         height: 222px;
@@ -2685,97 +2741,6 @@ header .nav a {
     .refist-form .check {
         margin-top: 15px;
     }
-
-    /* */
-
-    .number {
-        padding-bottom: 20px;
-    }
-
-    .paper_wrap li img {
-        position: absolute;
-    }
-
-    .paper_wrap li:first-child p {
-        width: 58% !important;
-    }
-
-    .paper_wrap li:first-child .mob-icons {
-        right: 0;
-        width: 72%;
-        top: 72px;
-    }
-
-    .paper_wrap li:nth-child(2) {
-        bottom: 0;
-        padding-top: 105px;
-    }
-
-    .paper_wrap li:first-child::after {
-        right: 21%;
-        background-repeat: no-repeat;
-        top: 71vw;
-        width: 35px;
-        height: 35px;
-        background-size: 100%;
-    }
-
-    .paper_wrap li:nth-child(2) p, .paper_wrap li:nth-child(4) p {
-        text-align: right;
-        margin: 0 0 0 auto;
-    }
-
-    .paper_wrap li:nth-child(2) .mob-icons {
-        width: 70%;
-        left: 10%;
-        top: 52%;
-    }
-
-    .paper_wrap li:nth-child(2) p {
-        width: 51% !important
-        margin-top: 15px;
-    }
-
-    .paper_wrap li:nth-child(2)::after {
-        left: 32%;
-        top: 92vw;
-        width: 30px;
-        height: 35px;
-        background-size: 100% 100%;
-    }
-
-    .paper_wrap li:nth-child(3) {
-        bottom: 0;
-        padding-top: 46%;
-    }
-
-    .paper_wrap li:nth-child(3) .mob-icons {
-        position: absolute;
-        right: 0;
-        width: 70%;
-        top: 55%;
-    }
-
-    .paper_wrap li:nth-child(3)::after {
-        top: 112vw;
-    }
-
-    .paper_wrap li:nth-child(4) {
-        bottom: 0;
-        padding-top: 25%;
-    }
-
-    .paper_wrap li:nth-child(4) {
-        bottom: 0;
-        padding-top: 25%;
-    }
-
-    .paper_wrap li:nth-child(4) .mob-icons {
-        width: 70%;
-        left: 0;
-        top: 50%;
-    }
-
 
 
 
