@@ -636,8 +636,8 @@ header .nav a {
 .stoni_f {
     position: absolute;
     width: 30%;
-    right: 28%;
-    bottom: 23%;
+    right: 30%;
+    bottom: 22%;
     z-index: 5;
 }
 
@@ -657,8 +657,8 @@ header .nav a {
 
 .majice {
     position: absolute;
-    right: 10%;
-    bottom: 33%;
+    right: 8%;
+    bottom: 27%;
     width: 20%;
 }
 
