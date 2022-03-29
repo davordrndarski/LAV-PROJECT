@@ -1011,11 +1011,11 @@ header .nav a {
     text-align: center;
 }
 
-.uputstvo_wrap .mobile-uputstvo {
+.uputstva .mobile-uputstvo {
     display: none;
 }
 
-.uputstvo_wrap .desk-uputstvo {
+.uputstva .desk-uputstvo {
     display: block;
 }
 
@@ -1589,11 +1589,11 @@ header .nav a {
 @media only screen and (max-width: 991px) {
 
 
-    .uputstvo_wrap .desk-uputstvo {
+    .uputstva .desk-uputstvo {
         display: none;
     }
 
-    .uputstvo_wrap .mobile-uputstvo {
+    .uputstva .mobile-uputstvo {
         display: block;
     }
 
