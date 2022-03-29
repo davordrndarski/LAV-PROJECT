@@ -2089,7 +2089,7 @@ header .nav a {
     .krigle,
     .majice {
         position: static;
-        width: 35%;
+        width: 100%;
         margin: auto;
     }
 
