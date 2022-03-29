@@ -611,6 +611,7 @@ header .nav a {
     width: 31%;
     top: 9%;
     left: 9%;
+    z-index: 5;
 }
 
 
@@ -627,9 +628,9 @@ header .nav a {
 
 .tv {
     position: absolute;
-    width: 33%;
-    top: 35%;
-    left: 12%;
+    width: 46%;
+    top: 9%;
+    left: 0%;
 }
 
 .stoni_f {
