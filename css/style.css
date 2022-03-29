@@ -1335,11 +1335,9 @@ header .nav a {
     .paper_wrap li:nth-child(2) {
         bottom: 1.5vw;
     }
-    .paper_wrap li:nth-child(3) {
-        bottom: 2vw;
-    }
+    
     .paper_wrap li:nth-child(4) {
-        bottom: -1vw;
+        bottom: -2vw;
     }
     .paper_wrap li:first-child::after,
     .paper_wrap li:nth-child(2)::after,
