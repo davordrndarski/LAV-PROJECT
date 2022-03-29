@@ -1329,7 +1329,8 @@ header .nav a {
     .a_gate .a_logo .lav-img {
         max-width: 160px;
     }
-    .bottle-c {
+    .bottle-c,
+    .home_wrap .bottle-c {
         width: 40%;
     }
     .home_wrap .bottle-c img {
