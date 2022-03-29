@@ -992,6 +992,11 @@ header .nav a {
 
 /* Uputstva */
 
+.uputstvo_wrap {
+    position: absolute;
+    bottom: 32px;
+}
+
 
 .uputstva {
     background: url(../images/uputstva-pozadina.png);
@@ -1000,6 +1005,10 @@ header .nav a {
     position: relative;
     overflow: hidden;
     text-align: center;
+}
+
+.uputstvo_wrap {
+
 }
 
 .uputstvo_logo_mobile {
@@ -1045,6 +1054,7 @@ header .nav a {
 
 .uputstva .mobile_mainTable {
     height: 100%;
+    position: relative;
 }
 
 
