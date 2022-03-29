@@ -2090,6 +2090,14 @@ header .nav a {
         margin: auto;
     }
 
+    .tv {
+        display: none;
+    }
+
+    .tv_mob {
+        display: block;
+    }
+
     .krigle {
         padding: 50px 0;
         width: 40%;
