@@ -650,7 +650,7 @@ header .nav a {
 
 .krigle {
     position: absolute;
-    right: 5%;
+    right: 3%;
     width: 26%;
     top: 10%;
 }
@@ -1604,17 +1604,17 @@ header .nav a {
         width: 30%;
     }
     .tv {
-        top: 42%;
-        width: 35%;
+        top: 30%;
+        width: 50%;
     }
     .bicikl {
-        top: 15%;
-        right: 25%;
-        width: 33%;
+        top: 6%;
+        right: 17%;
+        width: 47%;
     }
     .stoni_f {
-        width: 31%;
-        right: 21%;
+        width: 38%;
+        right: 18%;
         bottom: 15%;
     }
     .majice {
