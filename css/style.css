@@ -1181,7 +1181,7 @@ header .nav a {
     }
 
     .uputstva .bottom_img {
-        height: 550px;
+        height: 340px;
     }
 
     .winners-wrap {
@@ -1221,7 +1221,7 @@ header .nav a {
     }
     .uputstvo_cetka {
 	    bottom: 7%;
-	    width: 13%;
+	    width: 10%;
 	}
 	.paper_wrap li:first-child {
 	    bottom: -1vw;
@@ -1324,7 +1324,7 @@ header .nav a {
         bottom: 0;
     }
     .uputstva .bottom_img {
-        height: 235px;
+        height: 160px;
     }
     .paper_wrap li:nth-child(2) {
         bottom: 1vw;
@@ -1357,7 +1357,8 @@ header .nav a {
         font-size: 1.2vw;
     }
     .uputstvo_cetka {
-        bottom: 63px;
+        bottom: 46px;
+        width: 10%;
     }
 
 }
