@@ -633,7 +633,10 @@ header .nav a {
     left: 0%;
 }
 
-.tv_mob {
+.tv_mob,
+.bicikl_mob,
+.stoni_f_mob,
+.krigle_mob {
     display: none;
 }
 
@@ -2094,7 +2097,10 @@ header .nav a {
         display: none;
     }
 
-    .tv_mob {
+    .tv_mob,
+    .bicikl_mob,
+    .stoni_f_mob,
+    .krigle_mob {
         display: block;
     }
 
