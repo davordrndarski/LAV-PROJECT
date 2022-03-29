@@ -1434,10 +1434,7 @@ header .nav a {
 
 
 @media only screen and (max-width: 1350px) {
-    .paper_wrap {
-        position: relative;
-        bottom: -4vw;
-    }
+    
     .refist-form p {
         margin-bottom: 0;
     }
@@ -1452,20 +1449,6 @@ header .nav a {
     }
 }
 
-@media only screen and (max-width: 1366px) {
-    .paper_wrap li:first-child {
-        bottom: -1vw;
-    }
-    .paper_wrap li:nth-child(2) {
-        bottom: 0;
-    }
-    .paper_wrap li:nth-child(4) {
-        bottom: -2vw;
-    }
-    .paper_wrap li:nth-child(3) {
-        bottom: 1vw;
-    }
-}
 
 
 @media only screen and (max-width: 1250px) {
