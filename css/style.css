@@ -1820,7 +1820,7 @@ header .nav a {
 
     .uputstvo_wrap {
         padding: 0 0 27%;
-        background: url(../images/uputstva-pozadina.png);
+        background: url(../images/uputstva-pozadina.png) !important;
     }
 
     .paper_wrap {
@@ -2637,6 +2637,10 @@ header .nav a {
 }
 
 @media only screen and (max-width: 480px) {
+
+    .uputstvo_wrap {
+         background: transparent !important; 
+    }
 
     .tv_mob, .bicikl_mob, .stoni_f_mob, .krigle_mob {
         width: 100%;
