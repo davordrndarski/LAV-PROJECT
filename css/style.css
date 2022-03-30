@@ -1043,19 +1043,46 @@ header .nav a {
     padding: 0 25px;
 }
 
+.paper_wrap li:first-child {
+
+}
+
 .paper_wrap li img {
 	width: 100vw;
 }
 
-.number {
-    display: none;
-    color: #00264a !important;
+.paper_wrap li .mob-text {
+    position: absolute;
+    left: 28%;
+    width: 13vw !important;
+    top: 20%;
 }
 
-.mob-icons {
-    display: none;
+
+.paper_wrap li:first-child .mob-text {
+    left: 7vw;
+    top: 9vw;
 }
 
+.paper_wrap li:nth-child(2) .mob-text {
+    left: 5.5vw;
+}
+
+.paper_wrap li:nth-child(3) .mob-text {
+    left: 4.5vw;
+    top: 7vw;
+}
+
+.paper_wrap li:nth-child(4) .mob-text {  
+    left: 6.4vw;
+    top: 10vw;
+}
+
+
+
+.mob-text {
+    position: absolute;
+}
 
 
 .uputstva .mobile_mainTable {
@@ -1186,8 +1213,28 @@ header .nav a {
         min-width: 100%;
     }
 
-    .uputstva .bottom_img {
-        height: 340px;
+    .uputstva .desk-uputstvo {
+        width: 100%;
+    }
+
+    .paper_wrap li:first-child .mob-text {
+        left: 6.5vw;
+    }
+
+    .paper_wrap li:nth-child(2) .mob-text {
+        left: 5vw;
+    }
+
+    .paper_wrap li:nth-child(3) .mob-text {
+        left: 4vw;
+    }
+
+    .paper_wrap li:nth-child(4) .mob-text {
+        left: 6vw;
+    }
+
+    .uputstvo_wrap {
+        bottom: 3vw;
     }
 
     .winners-wrap {
