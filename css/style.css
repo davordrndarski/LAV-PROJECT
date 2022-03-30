@@ -1315,6 +1315,21 @@ header .nav a {
 
 }
 
+@media only screen and (max-width: 1920px) {
+    .paper_wrap li:first-child .mob-text {
+        left: 6.2vw;
+    }
+    .paper_wrap li:nth-child(2) .mob-text {
+        left: 4.6vw;
+    }
+    .paper_wrap li:nth-child(3) .mob-text {
+        left: 3.6vw;
+    }
+    .paper_wrap li:nth-child(4) .mob-text {
+        left: 5.5vw;
+    }
+}
+
 
 @media only screen and (max-width: 1700px) {
     .custom-select-trigger:after {
@@ -1334,6 +1349,27 @@ header .nav a {
 }
 
 @media only screen and (max-width: 1600px) {
+
+
+    .paper_wrap li:first-child .mob-text {
+        left: 7vw;
+    }
+
+    .paper_wrap li:nth-child(2) .mob-text {
+        left: 5.5vw;
+    }
+
+    .paper_wrap li:nth-child(3) .mob-text {
+        left: 4.5vw;
+    }
+
+    .paper_wrap li:nth-child(4) .mob-text {  
+        left: 6.4vw;
+    }
+
+
+
+
 
     .bicikl {
         top: -5%;
