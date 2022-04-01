@@ -1624,6 +1624,40 @@ header .nav a {
 		height: auto;
 	}
 
+	/**/
+
+	.present_wrap .a_logo {
+	    position: relative;
+	    padding-top: 130px;
+	}
+
+	.tv {
+	    top: 30%;
+	    width: 50%;
+	    position: relative;
+	}
+
+	.stoni_f {
+	    width: 38%;
+	    right: 18%;
+	    bottom: 15%;
+	    position: relative;
+	}
+
+
+	.bicikl {
+	    top: 6%;
+	    right: 17%;
+	    width: 47%;
+	    position: relative;
+	}
+
+	.krigle {
+	    position: relative;
+	    right: 3%;
+	    width: 26%;
+	    top: 10%;
+	}
 
 
 
