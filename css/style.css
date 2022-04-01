@@ -2285,7 +2285,7 @@ header .nav a {
     /* Pravilnik */
 
     .pravilnik {
-        height: auto;
+        /*height: auto;*/
     }
     .pr_wrap {
         position: static;
