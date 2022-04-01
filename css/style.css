@@ -1892,6 +1892,11 @@ header .nav a {
 	    background: url(../images/rang_pozadina.png);
 	}
 
+	.kaktus {
+	    bottom: 12%;
+	    z-index: 5;
+	}
+
     
 }
 
