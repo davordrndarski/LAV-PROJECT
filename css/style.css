@@ -1909,6 +1909,12 @@ header .nav a {
 	.bottle-c {
 	    left: 75%;
 	}
+	.rang_lista .rang_wrap {
+	    width: 65%;
+	}
+	.rang-list {
+	    width: 60vw;
+	}
 
 }
 
