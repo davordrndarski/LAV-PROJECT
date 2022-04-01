@@ -1625,6 +1625,10 @@ header .nav a {
 		background-color: lightgray;
 	}
 
+	.pravilnik {
+		height: auto;
+	}
+
 	/**/
 
 	.present_wrap .a_logo {
