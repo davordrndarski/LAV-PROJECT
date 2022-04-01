@@ -1,0 +1,1831 @@
+/* RESPONSIVE */
+
+@media only screen and (min-width: 1921px) {
+
+    .bottle-c img {
+        min-width: 100%;
+    }
+
+    .uputstva .desk-uputstvo {
+        width: 100%;
+    }
+
+    .paper_wrap li:first-child .mob-text {
+        left: 6.5vw;
+    }
+
+    .paper_wrap li:nth-child(2) .mob-text {
+        left: 5vw;
+    }
+
+    .paper_wrap li:nth-child(3) .mob-text {
+        left: 4vw;
+    }
+
+    .paper_wrap li:nth-child(4) .mob-text {
+        left: 6vw;
+    }
+
+    .uputstvo_wrap {
+        bottom: 3vw;
+    }
+
+    .winners-wrap {
+        top: 37%;
+    }
+	.a_gate .bottle-c {
+	    width: 32%;
+	}
+	.main-logo {
+		width: auto;
+	}
+	.paper_wrap li img {
+	    width: 87%;
+	}
+    .a_gate .a_logo {
+        width: 70%;
+        margin: auto;
+    }
+    .bottle-c {
+        width: 25%;
+    }
+    .form_select .btn button {
+        margin-top: 90px;
+    }
+
+    .paper_wrap li:first-child::after {
+    	right: -7%;
+    }
+    .paper_wrap li:nth-child(2)::after {
+    	right: -6%;
+    }
+    .paper_wrap li:nth-child(3)::after {
+    	right: -12%;
+    }
+    .lav_social img {
+    	width: 170px;
+    }
+    .uputstvo_cetka {
+	    bottom: 3.5vw;
+	    width: 10%;
+	}
+	.paper_wrap li:first-child {
+	    bottom: -1vw;
+	}
+	.paper_wrap li:nth-child(2) {
+	    bottom: 0;
+	}
+	.paper_wrap li:nth-child(3) {
+	    bottom: 0;
+	}
+	.paper_wrap li:nth-child(4) {
+	    bottom: -2vw;
+	}
+
+    .paper_wrap li:nth-child(4) p {
+        left: 53%;
+    }
+
+    .paper_wrap {
+        width: 93%;
+    }
+
+	.pr_content {
+	    height: 29vw;
+	}
+	.rang_lista .rang_wrap {
+	    padding-top: 6%;
+	}
+	.h_wrap_left {
+	    padding: 9% 40px 0;
+	}
+	.home_wrap .bottle-c {
+		width: 40%;
+	}
+	.h_wrap_right {
+	    padding-top: 5%;
+	}
+
+}
+
+@media only screen and (max-width: 1920px) {
+    .paper_wrap li:first-child .mob-text {
+        left: 6.2vw;
+    }
+    .paper_wrap li:nth-child(2) .mob-text {
+        left: 4.6vw;
+    }
+    .paper_wrap li:nth-child(3) .mob-text {
+        left: 3.6vw;
+    }
+    .paper_wrap li:nth-child(4) .mob-text {
+        left: 5.5vw;
+    }
+}
+
+
+@media only screen and (max-width: 1700px) {
+    .custom-select-trigger:after {
+        border-width: 7px 5px 0 5px;
+        right: 15%;
+    }
+    .custom-select-trigger {
+        font-size: 22px;
+    }
+    .form_select .btn button {
+        font-size: 25px;
+        padding: 10px 35px;
+    }
+    .custom-select-wrapper {
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+
+
+    .paper_wrap li:first-child .mob-text {
+        left: 7vw;
+    }
+
+    .paper_wrap li:nth-child(2) .mob-text {
+        left: 5.5vw;
+    }
+
+    .paper_wrap li:nth-child(3) .mob-text {
+        left: 4.5vw;
+    }
+
+    .paper_wrap li:nth-child(4) .mob-text {  
+        left: 6.4vw;
+    }
+
+
+
+
+
+    .bicikl {
+        top: -5%;
+    }
+
+    .tv {
+        top: 18%;
+    }
+
+    .majice {
+        right: 7%;
+        bottom: 27%;
+        width: 23%;
+    }
+
+    .stoni_f {
+        width: 33%;
+    }
+
+    .kaktus_1 {
+        bottom: 20%;
+    }
+    .h_wrap_left {
+        padding: 90px 40px 0;
+    }
+    .bottle-c img {
+        min-width: 120%;
+        padding: 5%;
+    }
+    .form_select {
+        padding-top: 10px;
+    }
+    .uputstvo_logo {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .paper_wrap {
+        width: 98%;
+    }
+    .paper_wrap li:first-child {
+       bottom: -1vw;
+    }
+    
+    .paper_wrap li:nth-child(2) {
+        bottom: 1vw;
+    }
+    .paper_wrap li:first-child p {
+        top: 21%;
+    }
+    .paper_wrap li:nth-child(2) {
+    bottom: 1vw;
+}
+    
+    .paper_wrap li:nth-child(4) {
+        bottom: -2vw;
+    }
+    .paper_wrap li:first-child::after,
+    .paper_wrap li:nth-child(2)::after,
+    .paper_wrap li:nth-child(3)::after {
+        right: -17%;
+    }
+    .paper_wrap li:nth-child(3)::after {
+        right: -29%;
+    }
+    .refist-form {
+        top: 43%;
+        width: 40%;
+    }
+    .refist-form p {
+        font-size: 1.2vw;
+    }
+    .uputstvo_cetka {
+       bottom: 4vw;
+        width: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 1450px) {
+    .a_gate .a_logo .lav-img {
+        max-width: 160px;
+    }
+    .bottle-c,
+    .home_wrap .bottle-c {
+        width: 40%;
+    }
+    .home_wrap .bottle-c img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .h_wrap_right img {
+        width: 85%;
+        padding-top: 25px;
+    }
+    .bottle-c img {
+        min-width: 100%;
+        padding: 0;
+    }
+    .a_gate .a_gate_wrap {
+        width: 75%;
+        padding: 0 115px 0 30px;
+    }
+    .a_login_form p {
+        font-size: 18px;
+    }
+    .custom-select-trigger {
+        font-size: 20px;
+    }
+    .custom-select-trigger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .custom-select-trigger:after {
+        position: static;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    .custom-option {
+        font-size: 14px;
+    }
+    .tv {
+        width: 41%;
+        top: 17%;
+        left: 9%;
+    }
+    .stoni_f { 
+        width: 33%;
+        right: 27%;
+        bottom: 18%;
+    }
+    .majice {
+        right: 6%;
+        bottom: 25%;
+        width: 24%;
+    }
+    .rang_lista .rang_wrap {
+        margin-top: 3%;
+    }
+    .refist-form {
+        top: 41%;
+        width: 41%;
+    }
+    .refist-form .check label {
+        font-size: 1vw;
+    }
+}
+
+
+@media only screen and (max-width: 1350px) {
+    
+    .refist-form p {
+        margin-bottom: 0;
+    }
+    .refist-form p {
+        font-size: 1.2vw;
+    }
+    .refist-form form input[type="text"] {
+        height: 2.8vw;
+    }
+    .refist-form form input[type="text"] {
+        font-size: 1.1vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 1250px) {
+    .a_gate .a_gate_wrap {
+        padding: 50px 90px 40px 30px;
+    }
+    .a_gate .a_logo .lav-img {
+        max-width: 140px;
+    }
+    .bottle-c img {
+        padding: 0 5%;
+    }
+    .bottle-c {
+        width: 42%;
+    }
+    .home_wrap .bottle-c {
+        width: 48%;
+    }
+    .h_wrap_left {
+        padding: 10% 40px 0;
+    }
+    .a_login_form p {
+        font-size: 18px;
+    }
+    .custom-select-wrapper {
+        padding: 10px 0;
+    }
+    .custom-select-trigger {
+        font-size: 17px;
+    }
+    .form_select .btn button {
+        font-size: 20px;
+    }
+    .lav_social p, .lav_social a {
+        font-size: 15px;
+    }
+    .lav_social ul a {
+        font-size: 20px;
+    }
+    .present_wrap .a_logo {
+        top: 15%;
+    }
+    .tv {
+        top: 42%;
+    }
+    .bicikl {
+        top: 10%;
+    }
+    .majice {
+        right: 5%;
+    }
+    .paper_wrap li:first-child::after, .paper_wrap li:nth-child(2)::after, .paper_wrap li:nth-child(3)::after {
+        right: -22%;
+    }   
+    .paper_wrap {
+        bottom: -9vw;
+    }
+    .refist-form {
+        top: 45%;
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+	.a_gate .lav_social ul {
+	    padding-right: 0;
+	    position: relative;
+	    top: auto;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.a_gate {
+        height: auto;
+    }
+    .a_gate {
+        background-size: cover;
+    }
+
+
+	.home_wrap {
+		height: auto;
+		position: relative;
+	}
+
+	.present_wrap {
+		height: auto;
+		background-color: lightgray;
+	}
+
+	.pravilnik {
+		height: auto;
+	}
+
+	.pr_wrap {
+	    top: 45%;
+	    position: relative;
+	    margin-top: 39vw;
+	}
+
+	
+	.rang_lista {
+		height: auto;
+		background-color: lightgray;
+	}
+
+	.rang-list {
+	    width: 100%;
+	    padding-bottom: 20%;
+	}
+
+	.rang_lista .rang_wrap {
+	    width: 100%;
+	    padding-left: 0;
+	}
+
+	/**/
+
+	.present_wrap .a_logo {
+	    position: relative;
+	    padding-top: 130px;
+	}
+
+	.tv {
+	    top: 30%;
+	    width: 50%;
+	    position: relative;
+	}
+
+	.stoni_f {
+	    position: relative;
+
+	    width: 38% !important;
+	    right: 0 !important;
+	    bottom: 20vw !important;
+	}
+
+
+	.bicikl {
+	    top: auto;
+	    right: auto;
+	    width: 47%;
+	    position: relative;
+	    bottom: 11vw;
+	    left: 8%;
+	}
+
+	.krigle {
+	    position: relative;
+	    right: auto;
+	    width: 34%;
+	    top: auto;
+	    bottom: 4vw;
+	    left: 9vw;
+	}
+
+
+
+
+
+    .bottle-c {
+        width: 40%;
+    }
+    .bottle-c img {
+        padding: 0;
+    }
+    .h_wrap_right img {
+        width: 100%;
+        padding-top: 10%;
+    }
+    header .nav a {
+        font-size: 14px;
+    }
+    .h_wrap_left p {
+        font-size: 13px;
+    }
+    .h_wrap_left {
+        padding: 15% 40px 155px;
+    }
+    .home_wrap .bottle-c {
+        width: 40%;
+    }
+    .code_enter button, .refist-form button, .next_btn {
+        padding: 5px 30px;
+        font-size: 13px;
+    }
+    .enterCode {
+        width: 65%;
+    }
+
+    .rang_lista .rang_wrap {
+        width: 100%;
+    }
+
+	.winners-wrap {
+	    top: 24%;
+	    left: 23%;
+	    width: 67.4vw;
+	    height: 50vw;
+	}
+
+
+    .print {
+        right: 3%;
+    	width: 27vw;
+    	top: 6%;
+    }
+    .kaktus,
+    .kaktus_1 {
+        bottom: 15%;
+    }
+    .rang_lista .rang_wrap {
+        margin-top: 7%;
+    }
+    .sprej {
+        right: 30%;
+    }
+
+    .registracija {
+    	height: auto;
+    }
+
+    .refist-form {
+	    position: relative;
+	}
+	.refist-form {
+	    margin-top: 40vw;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	.home_wrap {
+		position: relative;
+		height: auto;
+	}
+
+
+    .uputstva .desk-uputstvo {
+        display: none;
+    }
+
+    .uputstva .mobile-uputstvo {
+        display: block;
+        position: static;
+    }
+
+    .kaktus_1 {
+        display: none;
+    }
+
+    header {
+        position: absolute;
+        z-index: 20;
+    }
+    .a_gate .lav_social ul a {
+        font-size: 15px !important;
+    }
+    .a_login_form h1 {
+        font-size: 28px;
+    }
+    .center-all {
+        width: 75%;
+    }
+    .bottle-c {
+        left: 63%;
+    }
+    .custom-select-trigger {
+        border-right: none;
+    }
+    .form_select {
+        width: 90%;
+    }
+    .present_wrap .a_logo {
+        top: 20%;
+    }
+    .bicikl {
+        top: 15%;
+        right: 27%;
+        width: 30%;
+    }
+    .tv {
+        top: 30%;
+        width: 50%;
+    }
+    .bicikl {
+        top: 6%;
+        right: 17%;
+        width: 47%;
+    }
+    .stoni_f {
+        width: 38%;
+        right: 18%;
+        bottom: 15%;
+    }
+    .majice {
+        right: 3%;
+        width: 26%;
+        bottom: 35%;
+    }
+    .pr_content {
+        font-size: 1.3vw;
+        height: 30.5vw;
+    }
+    .pr_wrap {
+        width: 90%;
+    }
+    .pr_wrap {
+        top: 45%;
+    }
+    .pravilnik_logo {
+        width: 27%;
+    }
+
+    .p_pravilnik_can {
+        width: 27%;
+        bottom: 11%;
+    }
+    .p_pravilnik {
+        width: 27%;
+        bottom: 5%;
+    }
+    .rang_lista .rang_wrap {
+        margin-top: 15%;
+    }
+    .winners_heading li {
+        font-size: 1.2vw;
+    }
+    .winners_list li {
+        font-size: 1.2vw;
+    }
+    .sprej {
+        bottom: 9%;
+        width: 40%;
+    }
+
+    .uputstvo_logo {
+        width: 30%;
+    }
+
+    .uputstvo_logo {
+        display: none;
+    }
+
+    .uputstvo_logo_mobile {
+        display: block;
+        width: 30%;
+        margin: auto;
+        margin-top: 75px;
+    }
+
+    .uputstva {
+        height: auto;
+    }
+
+    .paper_wrap img {
+        display: none;
+    }
+
+    .paper_wrap .mob-icons {
+        display: block !important;
+    }
+
+    .paper_wrap li {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+
+    .number {
+        display: none;
+    }
+
+    .paper_wrap li p {
+        display: none;
+    }
+
+
+    .paper_wrap li img {
+        width: 50%;
+    }
+
+    .uputstvo_wrap {
+        padding: 0 0 27%;
+        background: url(../images/uputstva-pozadina.png) !important;
+    }
+
+    .paper_wrap {
+        bottom: 0;
+    }
+    .uputstvo_cetka {
+        bottom: 3.6%;
+        width: 16%;
+    }
+
+
+
+    .paper_wrap li:first-child::after,
+    .paper_wrap li:nth-child(3)::after {
+        display: none;
+    }
+
+    .paper_wrap li:nth-child(2)::after {
+        display: none;
+    }
+
+    .refist-form {
+        top: 45%;
+        width: 65%;
+    }
+
+    .refist-form p {
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .refist-form form input[type="text"] {
+        height: 40px;
+    }
+    .refist-form form input[type="text"] {
+        font-size: 14px;
+    }
+
+    .refist-form .check label {
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .refist-form {
+        width: 75%;
+    }
+    .registracija {
+        height: auto;
+    }
+
+    .refist-form {
+        width: 75%;
+        position: static;
+        transform: translate(0);
+        margin: auto;
+        padding-bottom: 20%;
+        padding-top: 5%;
+    }
+
+    .refist-form form {
+        padding-top: 0;
+    }
+    .refist-form form {
+        top: 45%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* Staart toggle */
+
+    .mob-btn {
+        display: block;
+    }
+
+    
+    .mob-btn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 25px;
+        top: 40px;
+    }
+
+    .mob-btn.fix_btn {
+        position: fixed;
+        z-index: 5;
+    }
+
+    .hide_bottle {
+        display: none !important;
+    }
+
+
+    .toggle-menu {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        outline: none;
+        padding: 0;
+        pointer-events: initial;
+        position: relative;
+        vertical-align: middle;
+        width: 50px;
+        z-index: 10;
+      }
+    .toggle-menu span {
+        background-color: #233d83;
+        content: "";
+        display: block;
+        height: 3px;
+        left: calc(50% - 13px );
+        position: absolute;
+        top: calc(50% - 1px );
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  -webkit-transform 0.2s linear;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear, -webkit-transform 0.2s linear;
+        width: 26px;
+      }
+    .toggle-menu span:before, .toggle-menu span:after {
+        background-color: #233d83;
+        content: "";
+        display: block;
+        height: 3px;
+        position: absolute;
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  -webkit-transform 0.2s linear;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear;
+        transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear, -webkit-transform 0.2s linear;
+        width: 26px;
+      }
+    .toggle-menu span:before {
+        top: 7px;
+    }
+    .toggle-menu span:after {
+        top: -7px;
+    }
+   .toggle-menu.active span {
+        background-color: transparent;
+        transition: background 0.2s ease-out;
+    }
+    .toggle-menu.active span:before, .toggle-menu.active span:after {
+        transition: top 0.2s ease-out, -webkit-transform 0.2s 0.2s ease-out;
+        transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out;
+        transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out, -webkit-transform 0.2s 0.2s ease-out;
+        background: #233d83;
+    }
+    .toggle-menu.active span:before {
+        top: 0;
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
+    }
+    .toggle-menu.active span:after {
+        top: 0;
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg);
+    }
+
+    /* End nav */
+
+    .uputstvo_logo_mobile {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 125px;
+        padding: 0 20px;
+    }
+
+    .uputstvo_cetka {
+        bottom: 3.2%;
+    }
+
+    .number {
+        font-family: 'Poppins-Medium';
+    }
+
+    header {
+        padding: 0 20px;
+        position: absolute;
+    }
+
+    header .nav {
+        display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        height: 100vh;
+        flex-direction: column;
+        text-align: center;
+        background: url(../images/nav-bgd.png);
+        background-size: cover;
+        background-position: center;
+        padding-top: 110px;
+
+        opacity: 0;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    header .nav.open_nav {
+        opacity: 1;
+        z-index: 1;
+        pointer-events: auto;
+    }
+
+    header .nav li {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+    header .nav a {
+        background-size: contain;
+        background: url(../images/nav-btn.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 220px;
+        height: 70px;
+        line-height: 65px;
+        padding: 0;
+        font-family: 'lowan';
+        font-size: 25px;
+        color: #f0d86d;
+        padding: 0 !important;
+    }
+
+    .a_gate .bottle-c img {
+        display: none;
+    }
+
+    .bottle_wrap-1 {
+        position: relative;
+    }
+
+    .bottle_wrap-1 .bottle_table {
+        position: absolute;
+        bottom: 7%;
+        z-index: 5;
+        width: 100%;
+    }
+    .h_wrap_left,
+    .h_wrap_right {
+        width: 100%;
+    }
+
+    .h_wrap_right img {
+        padding-top: 0;
+    }
+
+    .lav_social ul {
+        margin: 0;
+    }
+
+    .lav_social p, .lav_social a,
+    .bottom_img .lav_social li:first-child a {
+        line-height: inherit;
+    }
+
+    .bottom_img .lav_social li:first-child a,
+    .a_gate .lav_social li:first-child a {
+        font-size: 10px;
+    }
+
+    .bottom_img .lav_social li {
+        margin: 0;
+        text-align: center;
+
+        flex: 1;
+    }
+
+    .lav_social ul a,
+    .a_gate .lav_social ul a {
+	    font-size: 25px;
+	}
+
+    .a_gate .lav_social ul a {
+        font-size: 25px !important;
+    }
+
+    .bottom_img .lav_social li:first-child {
+        margin-top: -7px;
+    }
+
+    .bottom_img .lav_social li img,
+    .a_gate .lav_social li img {
+        width: 70%;
+    }
+
+    .a_gate .lav_social li {
+        flex: 1;
+    } 
+
+    .a_gate .lav_social li:nth-child(2) {
+        max-width: 90px;
+    }
+
+    .copy {
+        font-size: 7px !important;
+    }
+
+    .home_wrap {
+        height: auto;
+    }
+
+    .bottom_img .lav_social {
+        width: 60%;
+        bottom: 7%;
+    }
+
+    .home_wrap .bottle-c {
+        width: 75%;
+    }
+
+    .h_wrap_left p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .bottom_img {
+        position: relative;
+        height: 200px;
+    }
+
+    .bottom_img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .lav_board-mob {
+        display: block;
+        margin: auto;
+        width: 70%;
+    }
+    .lav_board {
+        display: none;
+    }
+
+    .a_gate .a_logo .lav-img {
+        max-width: 110px;
+    }
+    .center-all {
+        width: 100%;
+        background-size: 160%;
+        background-position: 0px 0px;
+    }
+    .a_gate .a_gate_wrap {
+        width: 100%;
+        padding: 0 20px 25px;
+    }
+
+    .a_gate .a_logo {
+        width: 60%;
+        margin: auto;
+    }
+
+    .present_wrap {
+        height: auto;
+    }
+
+    .tv,
+    .stoni_f,
+    .bicikl,
+    .krigle,
+    .majice {
+        position: static;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tv,
+    .stoni_f,
+    .bicikl,
+    .krigle {
+        display: none;
+    }
+
+    .tv_mob,
+    .bicikl_mob,
+    .stoni_f_mob,
+    .krigle_mob {
+        display: block;
+        width: 63%;
+        margin: auto;
+    }
+
+    .krigle {
+        padding: 50px 0;
+        width: 40%;
+    }
+
+    .majice {
+        width: 60% !important;
+        padding-top: 10%;
+    }
+
+    .present_box {
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0 215px;
+    }
+
+    .present_wrap .bottom_img {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 5;
+    }
+
+    .present_wrap .bottom_img img {
+        width: 100%;
+    }
+
+    .present_wrap .bottom_img .lav_social {
+        bottom: 5%;
+    }
+
+    /* Nagrade */
+
+    .present_wrap .a_logo {
+        width: auto;
+    }
+
+    .present_wrap .a_logo {
+        position: static;
+        margin: auto;
+        padding-top: 15%;
+    }
+
+    .present_wrap .lav-img {
+        display: none;
+    }
+
+    .present_wrap .lav-img-mob {
+        display: block;
+    }
+
+    .uputstva .lav-img {
+        display: none;
+    }
+
+    .uputstva  .mobile_mainTable.lav-img {
+        display: block;
+    }
+
+    .present_wrap .bottom_img {
+        height: 245px;
+    }
+
+    /* Pravilnik */
+
+    .pravilnik {
+        height: auto;
+    }
+    .pr_wrap {
+        position: static;
+        transform: translate(0);
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    /* Rang lista */
+
+    .rang_lista {
+        height: auto;
+    }
+
+    .print,
+    .kaktus {
+        display: none;
+    }
+    .rang-list {
+        display: none;
+    }
+    .rang-list_mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .rang_lista .rang_wrap {
+        width: 60%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .winners-wrap {
+        top: 25%;
+        left: 3%;
+        width: 58.4vw;
+        height: 75vw;
+    }
+    .winners_heading li {
+        font-size: 1.8vw;
+    }
+
+    .uputstvo_wrap {
+        padding: 0 0 8%;
+        background: transparent;
+    }
+
+    .uputstva .bottom_img {
+        background: url(../images/uputstva-pozadina.png);
+        height: 235px;
+    }
+
+    .refist-form {
+        width: 100%
+    }
+    .refist-form {
+        padding-bottom: 0;
+    }
+
+    .refist-form form {
+        top: 55%;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bottom_img .lav_social {
+        width: 100%;
+    }
+    .a_login_form {
+        margin-top: 10%;
+    	margin-bottom: 10%;
+    }
+    .a_gate .a_logo .lav-img {
+        max-width: 95px;
+    }
+    .custom-select-wrapper {
+        padding: 7px 0;
+    }
+    .custom-select-trigger {
+        font-size: 16px;
+    }
+    .form_select .btn button {
+      font-size: 25px;
+      padding: 12px 35px;
+    }
+    .form_select .btn button {
+      font-size: 18px;
+      margin-top: 25px;
+    }
+    .center-all {
+        background-size: cover;
+        background-position: left;
+        padding: 20px 0;
+    }
+    .mob_bottle {
+        display: block;
+        width: 55%;
+        margin: auto;
+    }
+    .lav_social ul {
+        margin-bottom: 0;
+        padding: 0 7% !important;
+    }
+
+
+
+    .form_select {
+        width: 90%;
+    }
+    .a_gate {
+        height: auto;
+    }
+    .h_wrap_left {
+        padding: 125px 20px 0;
+    }
+    .h_wrap_left p {
+        font-size: 15px;
+    }
+    .code_enter button, .refist-form button, .next_btn {
+        text-transform: uppercase;
+        padding: 10px 30px;
+        font-size: 13px;
+        margin: 25px 0;
+    }
+
+    .present_wrap,
+    .pravilnik,
+    .rang_lista {
+        background: url(../images/nagrada-mob-bgd.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .present_wrap .a_logo {
+        padding-top: 125px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+    }
+
+    .present_box {
+        padding: 45px 0 235px;
+    }
+
+    .present_box {
+        padding: 150px 0 235px;
+    }
+    .tv, .stoni_f, .bicikl, .krigle, .majice {
+        width: 40%;
+    }
+    .krigle {
+        width: 50%;
+    }
+    .stoni_f {
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+
+    .pravilnik_logo {
+        width: 70%;
+        top: -1%;
+    }
+
+    .pravilnik_logo {
+    	display: none;
+    }
+
+    .pravilnik_logo_mobile {
+		display: block;
+	    position: absolute;
+	    width: 80%;
+	    left: 50%;
+	    transform: translate(-50%);
+	    top: -35px;
+    }
+
+    .pravilnik .pr_wrap {
+        margin-top: 170px;
+        padding-bottom: 130px;
+    }
+
+    .p_pravilnik {
+        display: none;
+    }
+
+    .p_pravilnik_mobile {
+        display: block;
+        height: auto !important;
+        bottom: 0;
+        position: absolute;
+        width: 61%;
+        left: -26px;
+    }
+
+    .p_pravilnik_can {
+        width: 40%;
+        bottom: 8%;
+    }
+
+    .p_pravilnik_can {
+    	display: none;
+    }
+	.p_pravilnik_can_mob {
+	    display: block;
+	    z-index: 5;
+	    position: absolute;
+	    bottom: -8px;
+	    right: -47px;
+	    width: 60%;
+	    height: auto !important;
+    }
+
+    .pravilnik .tabla-mala {
+    	z-index: 7;
+    }
+
+    .pravilnik .lav_social {
+    	z-index: 20;
+    }
+
+    .pr_content {
+        top: 40%;
+        font-size: 14px;
+        height: 30.5vw;
+        width: 90%;
+        height: 130vw;
+    }
+
+    .pr_content h2 {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+
+    .p_window {
+        display: none;
+    }
+    .p_window-mobile {
+        display: block;
+        margin-top: 125px;
+        width: 100%;
+    }
+
+    .rang_lista .rang_wrap {
+        width: 100%;
+        margin-top: 120px;
+        padding: 0;
+        padding-bottom: 65% !important;
+    }
+
+    .winners-wrap {
+        top: 25%;
+        left: 3%;
+        width: 96.4vw;
+        height: 125vw;
+    }
+
+    .winners_heading li {
+        font-size: 2vw;
+    }
+
+    .winners_list li {
+        font-size: 1.7vw;
+    }
+
+    .rang_lista .bottom_img {
+        position: absolute;
+        height: 200px;
+    }
+
+    .rang_lista .lav-img {
+        display: none;
+    }
+
+    .mobile_mainTable {
+        display: block !important;
+    }
+
+    .paper_wrap li img {
+        width: 100%;
+    }
+
+    .uputstvo_logo {
+        width: 35%;
+    }
+
+    .paper_wrap li {
+        padding: 50px 25px;
+    }
+
+    .paper_wrap li p {
+        width: 50% !important;
+        font-size: 16px;
+        
+    }
+
+    .paper_wrap li {
+        padding: 30px 25px 0;
+        position: relative;
+    }
+
+
+
+    .paper_wrap li:first-child::after, .paper_wrap li:nth-child(3)::after {
+        right: 13%;
+        background-repeat: no-repeat;
+        top: 50vw;
+    }
+
+    .paper_wrap li:nth-child(2)::after {
+        left: 20%;
+        top: 55vw;
+    }
+
+    .uputstva .bottom_img {
+        height: 185px;
+    }
+
+
+    .paper_wrap li:first-child p,
+    .paper_wrap li:nth-child(3) p {
+        text-align: left;
+        margin: 0 auto 0 0;
+    }
+
+    .paper_wrap li:nth-child(2) p,
+    .paper_wrap li:nth-child(4) p {
+        text-align: right;
+    }
+
+
+    .paper_wrap li:first-child img {
+        margin-left: 0;
+    }
+
+    .refist-form form {
+        top: 60%;
+    }
+
+    .refist-form button {
+        margin-top: 10px;
+    }
+
+    .refist-form form {
+        width: 70%;
+    }
+
+    .refist-form form input[type="text"] {
+        margin: 5px 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .registracija {
+        background-position: right;
+    }
+
+    .uputstvo_wrap {
+         background: transparent !important; 
+    }
+
+    .tv_mob, .bicikl_mob, .stoni_f_mob, .krigle_mob {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .krigle_mob {
+        padding-right: 7% !important;
+    }
+
+    .majice {
+        width: 90% !important;
+    }
+
+	body {
+	    font-family: 'Poppins-Regular';
+	}
+
+    .a_login_form h1 {
+        margin-top: 0;
+    }
+
+	.p_pravilnik {
+	    width: 55%;
+	    bottom: 2%;
+	}
+
+	.refist-form p {
+	   font-size: 5vw;
+	    width: 85%;
+	    margin: auto;
+	}
+
+	.refist-form {
+	    padding-top: 9%;
+	}
+
+	/* Age gate */
+
+	.a_gate .mob_bottle {
+	    width: 100%;
+	}
+
+    .show {
+        display: block !important;
+        position: absolute;
+        width: 26% !important;
+        left: 15px;
+    }
+
+
+    .tabla-mala {
+        position: absolute;
+        bottom: 0;
+        height: 206px !important;
+        display: block;
+    }
+
+    .a_login_form p {
+        font-size: 13px;
+        margin-top: 0;
+    }
+
+    .desk_window {
+        display: none;
+    }
+
+    .h_wrap_left br {
+        display: block;
+    }
+
+    .h_wrap_left p {
+        font-size: 15px;
+        padding: 0 3px;
+    }
+
+    .enterCode {
+        width: 65%;
+        font-size: 15px;
+    }
+
+    .mob_window {
+        display: block;
+    }
+
+    .h_wrap_left .local {
+        width: 22%;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .lav_board-mob {
+        width: 100%;
+    }
+
+	.center-all {	
+    	background: url(../images/age-mobile.png);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    padding-bottom: 100%;
+	    background-position: bottom;
+	}
+
+	.a_gate .bottom_img {
+		display: block;
+	    position: absolute;
+	    width: 100%;
+	    bottom: 15px;
+	    left: 0;
+	}
+
+
+	.a_gate .lav_social {
+		width: 100%;
+		display: flex;
+	}
+
+	.a_gate .bottom_img .lav_social {
+		display: block;
+	}
+
+
+	.a_gate .lav_social a {
+	    font-size: 12px;
+	}
+
+
+	.a_gate .bottle-c img {
+	    display: block;
+	}
+
+	.a_gate {
+		background: url(../images/lav-mob-pozadina.png);
+        background-position: 100% 76%;
+        background-size: contain;
+	}
+	.lav_table {
+		width: 100%;
+	}
+
+	.lav_table {
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: left;
+	    height: 500px;
+	}
+
+	.bottle-c {
+	    left: 53%;
+	    width: 80%;
+	   bottom: 45px;
+	}
+
+	.a_gate .lav_social {
+		position: absolute;
+	    bottom: 0;
+	    left: 50%;
+	    transform: translate(-50%);
+	}
+
+	.soc {
+		font-size: 25px !important;
+	}
+
+	.a_gate .lav_social ul {
+	    width: 100%;
+	    margin: auto;
+	    margin-bottom: 15px;
+	}
+
+	.a_gate .lav_social li {
+	    margin: 0 2px;
+	}
+
+	.a_gate .lav_social li:first-child a {
+	    font-size: 10px !important;
+	}
+
+    .present_box {
+       padding: 40px 0 210px;
+    }
+    .tv, .stoni_f, .bicikl, .krigle, .majice {
+        width: 90%;
+    }
+    .krigle {
+        width: 100%;
+    }
+    .present_wrap .bottom_img .lav_social {
+        bottom: 6%;
+    }
+    .present_wrap .bottom_img {
+        height: 217px;
+    }
+    .present_wrap .bottom_img .lav_social {
+        bottom: 5%;
+    }
+    .rang_lista .rang_wrap {
+        padding-bottom: 52%;
+    }
+    .sprej {
+        bottom: 133px;
+        width: 71%;
+        right: 20%;
+    }
+    .winners_heading li {
+        font-size: 3vw;
+    }
+    .winners_list li {
+        font-size: 2.6vw;
+    }
+    .winners-wrap {
+        top: 21%;
+    }
+    .uputstvo_logo {
+        margin-top: 129px;
+    	width: 65%;
+    }
+
+    .paper_wrap li:first-child::after, .paper_wrap li:nth-child(3)::after {
+        right: 25%;
+        background-repeat: no-repeat;
+        top: 54vw;
+        width: 35px;
+        height: 35px;
+        background-size: 100%;
+    }
+
+    .paper_wrap li:nth-child(2)::after {
+        left: 20%;
+        top: 60vw;
+        width: 30px;
+        height: 35px;
+        background-size: 100% 100%;
+    }
+    .uputstva .bottom_img {
+        background: transparent;
+    }
+    .uputstvo_wrap {
+        padding: 0;
+        padding-bottom: 10%;
+    }
+    .uputstva .bottom_img  {
+        height: 222px;
+    }
+
+    .uputstvo_cetka {
+        bottom: 63px;
+        width: 35%;
+    }
+
+    .regist-form {
+        display: none;
+    }
+
+    .regist-form-mobile {
+        display: block;
+        width: 100%;
+    }
+    .refist-form form {
+        width: 90%;
+    }
+
+    .refist-form form input[type="text"] {
+        height: 50px;
+        font-size: 16px;
+        padding: 0 15px;
+        margin: 10px 0;
+    }
+    .refist-form button {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .refist-form .check {
+        margin-top: 15px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 360px) {
+	.refist-form form input[type="text"] {
+	    height: 43px;
+	}
+}
