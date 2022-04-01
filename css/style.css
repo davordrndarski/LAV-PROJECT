@@ -1638,6 +1638,7 @@ header .nav a {
 	
 	.rang_lista {
 		height: auto;
+		background: lightgray;
 	}
 
 	.rang-list {
