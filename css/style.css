@@ -1900,6 +1900,16 @@ header .nav a {
 		padding-top: 5%;
 	}
 
+	.a_gate {
+	    height: 100vh;
+	}
+	.center-all {
+	    width: 85%;
+	}
+	.bottle-c {
+	    left: 75%;
+	}
+
 }
 
 @media only screen and (max-width: 767px) {
