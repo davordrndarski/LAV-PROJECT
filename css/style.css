@@ -1932,6 +1932,12 @@ header .nav a {
 	    left: 75%;
 	}
 
+	/**/
+
+	.refist-form {
+	    top: 63%;
+	}
+
     
 }
 
@@ -1939,9 +1945,7 @@ header .nav a {
     .refist-form {
         width: 75%;
     }
-    .registracija {
-        height: auto;
-    }
+    
 
     .refist-form {
         width: 75%;
