@@ -1888,6 +1888,10 @@ header .nav a {
 	    margin-top: 28%;
 	}
 
+	.rang_lista .bottom_img {
+	    background: url(../images/rang_pozadina.png);
+	}
+
     
 }
 
