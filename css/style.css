@@ -1903,6 +1903,29 @@ header .nav a {
 	    right: 30%;
 	}
 
+	/**/
+
+	 .home_wrap .bottle-c {
+	    width: 55%;
+	    bottom: 7%;
+	}
+	.present_wrap {
+		background-size: auto;
+	}
+	.uputstva .mobile-uputstvo {
+		padding-top: 5%;
+	}
+
+	.a_gate {
+	    height: 100vh;
+	}
+	.center-all {
+	    width: 85%;
+	}
+	.bottle-c {
+	    left: 75%;
+	}
+
     
 }
 
@@ -1930,26 +1953,7 @@ header .nav a {
         top: 45%;
     }
 
-    .home_wrap .bottle-c {
-	    width: 55%;
-	    bottom: 7%;
-	}
-	.present_wrap {
-		background-size: auto;
-	}
-	.uputstva .mobile-uputstvo {
-		padding-top: 5%;
-	}
-
-	.a_gate {
-	    height: 100vh;
-	}
-	.center-all {
-	    width: 85%;
-	}
-	.bottle-c {
-	    left: 75%;
-	}
+  
 
 }
 
