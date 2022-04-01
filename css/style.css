@@ -1921,6 +1921,12 @@ header .nav a {
 	    bottom: 7%;
 	}
 
+	.krigle {
+	    right: 3%;
+	    width: 35%;
+	    top: 30%;
+	}
+
 	.uputstva .mobile-uputstvo {
 		padding-top: 5%;
 	}
