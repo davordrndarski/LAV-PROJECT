@@ -2297,7 +2297,7 @@ header .nav a {
     /* Rang lista */
 
     .rang_lista {
-        height: auto;
+        /*height: auto;*/
     }
 
     .print,
