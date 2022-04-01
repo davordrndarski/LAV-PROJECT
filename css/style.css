@@ -774,7 +774,6 @@ header .nav a {
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background-color: #e2e1df;
 }
 
 .registracija .lav-img {
@@ -1672,10 +1671,6 @@ header .nav a {
 
 @media only screen and (max-width: 991px) {
 
-	.lav_table {
-	    width: 85%;
-	}
-
 
     .uputstva .desk-uputstvo {
         display: none;
@@ -1721,17 +1716,17 @@ header .nav a {
     }
     .tv {
         top: 30%;
-        width: 65%;
+        width: 50%;
     }
     .bicikl {
         top: 6%;
-        right: 6%;
+        right: 17%;
         width: 47%;
     }
     .stoni_f {
-        width: 50%;
-	    right: 24%;
-	    bottom: 11%;
+        width: 38%;
+        right: 18%;
+        bottom: 15%;
     }
     .majice {
         right: 3%;
@@ -1867,86 +1862,6 @@ header .nav a {
     .refist-form .check label {
         font-size: 12px;
     }
-
-
-
-    .rang_lista .rang_wrap {
-	    width: 65%;
-	}
-	.rang-list {
-	    width: 60vw;
-	}
-	.rang_lista .rang_wrap {
-	    width: 100%;
-	}
-	.rang-list {
-	    width: 100vw;
-	}
-	.winners-wrap {
-	    top: 32%;
-	    left: 31%;
-	    width: 60vw;
-	    height: 45vw;
-	}
-
-	.rang_lista .rang_wrap {
-	    margin-top: 28%;
-	}
-
-	.rang_lista .bottom_img {
-	    background: url(../images/rang_pozadina.png);
-	}
-
-	.kaktus {
-	    bottom: 12%;
-	    z-index: 5;
-	}
-
-	.sprej {
-	    bottom: 6%;
-	    width: 40%;
-	    right: 30%;
-	}
-
-
-	.present_wrap .bottom_img {
-	    background: url(../images/nagrade-pozadina.png);
-	    background-size: cover;
-	}
-
-	/**/
-
-	 .home_wrap .bottle-c {
-	    width: 55%;
-	    bottom: 7%;
-	}
-
-	.krigle {
-	    right: 3%;
-	    width: 35%;
-	    top: 30%;
-	}
-
-	.uputstva .mobile-uputstvo {
-		padding-top: 5%;
-	}
-
-	.a_gate {
-	    height: 100vh;
-	}
-	.center-all {
-	    width: 85%;
-	}
-	.bottle-c {
-	    left: 75%;
-	}
-
-	/**/
-
-	.refist-form {
-	    top: 63%;
-	}
-
     
 }
 
@@ -1954,7 +1869,9 @@ header .nav a {
     .refist-form {
         width: 75%;
     }
-    
+    .registracija {
+        height: auto;
+    }
 
     .refist-form {
         width: 75%;
@@ -1971,9 +1888,6 @@ header .nav a {
     .refist-form form {
         top: 45%;
     }
-
-  
-
 }
 
 @media only screen and (max-width: 767px) {
