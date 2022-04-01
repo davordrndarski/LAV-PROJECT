@@ -1747,6 +1747,7 @@ header .nav a {
 
     header {
         position: absolute;
+        z-index: 20;
     }
     .a_gate .lav_social ul a {
         font-size: 15px !important;
