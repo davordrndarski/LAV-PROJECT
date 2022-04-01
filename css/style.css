@@ -1890,7 +1890,7 @@ header .nav a {
     }
 }
 
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 767px) {
 
     /* Staart toggle */
 
@@ -2146,15 +2146,9 @@ header .nav a {
         font-size: 16px;
     }
 
-    /*.bottom_img {
+    .bottom_img {
         position: relative;
         height: 200px;
-    }*/
-
-    .bottom_img {
-        position: absolute;
-        height: 200px;
-        bottom: 0;
     }
 
     .bottom_img img {
@@ -2285,7 +2279,7 @@ header .nav a {
     /* Pravilnik */
 
     .pravilnik {
-        /*height: auto;*/
+        height: auto;
     }
     .pr_wrap {
         position: static;
@@ -2297,7 +2291,7 @@ header .nav a {
     /* Rang lista */
 
     .rang_lista {
-        /*height: auto;*/
+        height: auto;
     }
 
     .print,
@@ -2349,47 +2343,8 @@ header .nav a {
         top: 55%;
     }
 
-    .rang_lista .rang_wrap {
-    	width: 100%;
-    	padding-left: 0;
-    }
-
-    .winners-wrap {
-	    top: 32%;
-	    left: 23%;
-	    width: 74vw;
-	    height: 50vw;
-	}
-
-	.rang_lista .rang_wrap {
-	    margin-top: 35%;
-	}
-
-	.rang_lista .bottom_img {
-	    background: url(../images/rang_pozadina.png);
-	}
-
-	.sprej {
-	    bottom: 5%;
-	}
-	.kaktus {
-	    bottom: 9%;
-	    z-index: 6;
-	}
     
 }
-
-
-@media only screen and (max-width: 767px) {
-	.rang_lista,
-	.pravilnik,
-	.present_wrap,
-	.uputstva,
-	.rang_lista {
-		height: auto;
-	}
-}
-
 
 
 @media only screen and (max-width: 600px) {
