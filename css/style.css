@@ -2353,6 +2353,18 @@ header .nav a {
 }
 
 
+@media only screen and (max-width: 767px) {
+	.rang_lista,
+	.pravilnik,
+	.present_wrap,
+	.uputstva,
+	.rang_lista {
+		height: auto;
+	}
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .bottom_img .lav_social {
         width: 100%;
