@@ -2349,6 +2349,29 @@ header .nav a {
         top: 55%;
     }
 
+    .rang_lista .rang_wrap {
+    	width: 100%;
+    	padding-left: 0;
+    }
+
+    .winners-wrap {
+	    top: 32%;
+	    left: 23%;
+	    width: 74vw;
+	    height: 50vw;
+	}
+
+	.rang_lista .rang_wrap {
+	    margin-top: 35%;
+	}
+
+	.rang_lista .bottom_img {
+	    background: url(../images/rang_pozadina.png);
+	}
+
+	.sprej {
+	    bottom: 5%;
+	}
     
 }
 
