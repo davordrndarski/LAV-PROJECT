@@ -1635,6 +1635,20 @@ header .nav a {
 	    margin-top: 39vw;
 	}
 
+	
+	.rang_lista {
+		height: auto;
+	}
+
+	.rang-list {
+	    width: 100%;
+	}
+
+	.rang_lista .rang_wrap {
+	    width: 100%;
+	    padding-left: 0;
+	}
+
 	/**/
 
 	.present_wrap .a_logo {
@@ -1710,8 +1724,17 @@ header .nav a {
     }
 
     .rang_lista .rang_wrap {
-        width: 60%;
+        width: 100%;
     }
+
+	.winners-wrap {
+	    top: 24%;
+	    left: 23%;
+	    width: 67.4vw;
+	    height: 50vw;
+	}
+
+
     .print {
         right: 3%;
     }
