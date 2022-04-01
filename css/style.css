@@ -1622,6 +1622,7 @@ header .nav a {
 
 	.present_wrap {
 		height: auto;
+		background-color: lightgray;
 	}
 
 	/**/
