@@ -1760,6 +1760,9 @@ header .nav a {
     .refist-form {
 	    position: relative;
 	}
+	.refist-form {
+	    margin-top: 40vw;
+	}
 
 }
 
