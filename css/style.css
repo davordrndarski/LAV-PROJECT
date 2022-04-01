@@ -96,6 +96,10 @@ a {
     background-position: top right;
 }
 
+.mobile_bottle {
+    display: none;
+}
+
 .a_gate .a_gate_wrap {
     width: 75%;
     padding: 0 50px
@@ -326,6 +330,7 @@ a {
     transform: translateY(-15px);
     height: 193px;
     overflow: scroll;
+    z-index: 15;
 }
 
 .custom-select.opened .custom-options {

@@ -1534,6 +1534,8 @@
 
 @media only screen and (max-width: 480px) {
 
+
+
     .registracija {
         background-position: right;
     }
@@ -1670,7 +1672,13 @@
 
 	.a_gate .bottle-c img {
 	    display: block;
+        display: none;
 	}
+
+    .mobile_bottle,
+    .mobile_bottle img {
+        display: block !important;
+    }
 
 	.a_gate {
 		background: url(../images/lav-mob-pozadina.png);
