@@ -1672,6 +1672,10 @@ header .nav a {
 
 @media only screen and (max-width: 991px) {
 
+	.lav_table {
+	    width: 85%;
+	}
+
 
     .uputstva .desk-uputstvo {
         display: none;
