@@ -1897,6 +1897,12 @@ header .nav a {
 	    z-index: 5;
 	}
 
+	.sprej {
+	    bottom: 6%;
+	    width: 40%;
+	    right: 30%;
+	}
+
     
 }
 
