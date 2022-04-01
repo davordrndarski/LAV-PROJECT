@@ -1629,6 +1629,12 @@ header .nav a {
 		height: auto;
 	}
 
+	.pr_wrap {
+	    top: 45%;
+	    position: relative;
+	    margin-top: 39vw;
+	}
+
 	/**/
 
 	.present_wrap .a_logo {
