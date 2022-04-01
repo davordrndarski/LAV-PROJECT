@@ -1896,6 +1896,9 @@ header .nav a {
 	.present_wrap {
 		background-size: auto;
 	}
+	.uputstva .mobile-uputstvo {
+		padding-top: 5%;
+	}
 
 }
 
