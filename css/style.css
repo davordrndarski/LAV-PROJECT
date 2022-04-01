@@ -2146,9 +2146,15 @@ header .nav a {
         font-size: 16px;
     }
 
-    .bottom_img {
+    /*.bottom_img {
         position: relative;
         height: 200px;
+    }*/
+
+    .bottom_img {
+        position: absolute;
+        height: 200px;
+        bottom: 0;
     }
 
     .bottom_img img {
