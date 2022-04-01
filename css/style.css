@@ -2372,6 +2372,10 @@ header .nav a {
 	.sprej {
 	    bottom: 5%;
 	}
+	.kaktus {
+	    bottom: 9%;
+	    z-index: 6;
+	}
     
 }
 
