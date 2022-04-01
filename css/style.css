@@ -1638,25 +1638,30 @@ header .nav a {
 	}
 
 	.stoni_f {
-	    width: 38%;
-	    right: 18%;
-	    bottom: 15%;
 	    position: relative;
+
+	    width: 38%;
+	    right: 0;
+	    bottom: 20vw;
 	}
 
 
 	.bicikl {
-	    top: 6%;
-	    right: 17%;
+	    top: auto;
+	    right: auto;
 	    width: 47%;
 	    position: relative;
+	    bottom: 11vw;
+	    left: 8%;
 	}
 
 	.krigle {
 	    position: relative;
-	    right: 3%;
-	    width: 26%;
-	    top: 10%;
+	    right: auto;
+	    width: 34%;
+	    top: auto;
+	    bottom: 4vw;
+	    left: 9vw;
 	}
 
 
