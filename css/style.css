@@ -1640,9 +1640,9 @@ header .nav a {
 	.stoni_f {
 	    position: relative;
 
-	    width: 38%;
-	    right: 0;
-	    bottom: 20vw;
+	    width: 38% !important;
+	    right: 0 !important;
+	    bottom: 20vw !important;
 	}
 
 
