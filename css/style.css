@@ -1862,6 +1862,28 @@ header .nav a {
     .refist-form .check label {
         font-size: 12px;
     }
+
+
+
+    .rang_lista .rang_wrap {
+	    width: 65%;
+	}
+	.rang-list {
+	    width: 60vw;
+	}
+	.rang_lista .rang_wrap {
+	    width: 100%;
+	}
+	.rang-list {
+	    width: 100vw;
+	}
+	.winners-wrap {
+	    top: 32%;
+	    left: 31%;
+	    width: 60vw;
+	    height: 45vw;
+	}
+
     
 }
 
@@ -1908,24 +1930,6 @@ header .nav a {
 	}
 	.bottle-c {
 	    left: 75%;
-	}
-	.rang_lista .rang_wrap {
-	    width: 65%;
-	}
-	.rang-list {
-	    width: 60vw;
-	}
-	.rang_lista .rang_wrap {
-	    width: 100%;
-	}
-	.rang-list {
-	    width: 100vw;
-	}
-	.winners-wrap {
-	    top: 32%;
-	    left: 31%;
-	    width: 60vw;
-	    height: 45vw;
 	}
 
 }
