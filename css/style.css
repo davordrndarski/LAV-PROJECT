@@ -673,6 +673,11 @@ header .nav a {
     visibility: visible !important;
 }
 
+.bicikl .fadeIn {
+    -webkit-animation-name: none;
+    animation-name: none;
+}
+
 .krigle {
     position: absolute;
     right: 3%;
