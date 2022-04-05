@@ -142,6 +142,7 @@ a {
     font-weight: normal;
     margin-bottom: 0;
     font-family: 'Poppins-Regular';
+    margin-top: 0;
 }
 
 .a_login_form p {
@@ -155,8 +156,10 @@ a {
 }
 
 .lav-img {
-	width: 100%;
+    width: 100%;
+    height: 32.5vh;
 }
+
 
 .lav_social ul {
     display: flex;
@@ -205,7 +208,7 @@ a {
 .a_gate .lav_social ul {
     padding-right: 12%;
     position: relative;
-    top: 5vw;
+    top: 8vh;
 }
 
 
@@ -383,7 +386,7 @@ a {
 /* Homepage */
 
 header {
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 5;
     padding: 0 50px;
@@ -438,7 +441,7 @@ header .nav a {
 
 .h_wrap_left {
     width: 40%;
-    padding: 75px 40px 0;
+    padding: 7.5vh 4vh 0;
 }
 
 .h_wrap_left br {
@@ -466,6 +469,7 @@ header .nav a {
 .h_wrap_left .a_logo {
     position: relative;
     text-align: center;
+    width: 35.5vw;
 }
 
 .h_wrap_left .a_logo .lav-img {
@@ -482,7 +486,7 @@ header .nav a {
     text-align: center;
     width: 90%;
     margin: auto;
-    padding-top: 15px;
+    padding-top: 1vh;
 }
 
 .h_wrap_left .local {
@@ -533,7 +537,7 @@ header .nav a {
     text-align: center;
     width: 40%;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 
 .enterCode::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -576,7 +580,7 @@ header .nav a {
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 
 .next_btn {
@@ -617,7 +621,7 @@ header .nav a {
 
 .present_wrap .a_logo {
     position: absolute;
-    width: 31%;
+        width: 31vw;
     top: 9%;
     left: 9%;
     z-index: 5;
@@ -637,9 +641,13 @@ header .nav a {
 
 .tv {
     position: absolute;
-    width: 39%;
+    width: 75vh;
     top: 15%;
     left: 9%;
+}
+
+.present_wrap .lav-img {
+    height: auto;
 }
 
 .tv_mob,
@@ -651,7 +659,7 @@ header .nav a {
 
 .stoni_f {
     position: absolute;
-    width: 30%;
+        width: 62vh;
     right: 30%;
     bottom: 22%;
     z-index: 5;
@@ -660,14 +668,14 @@ header .nav a {
 .bicikl {
     position: absolute;
     right: 24%;
-    width: 35%;
+        width: 70vh;
     top: -12%;
 }
 
 .krigle {
     position: absolute;
     right: 3%;
-    width: 26%;
+    width: 50vh;
     top: 10%;
 }
 
@@ -675,7 +683,7 @@ header .nav a {
     position: absolute;
     right: 8%;
     bottom: 27%;
-    width: 20%;
+    width: 40vh;
 }
 
 /* Pravilnik */
@@ -1032,6 +1040,8 @@ header .nav a {
     width: 16%;
     margin-top: 50px;
     margin-bottom: 10px;
+        position: relative;
+    z-index: 7;
 }
 
 
@@ -1039,6 +1049,7 @@ header .nav a {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+    
     margin: auto;
 }
 
