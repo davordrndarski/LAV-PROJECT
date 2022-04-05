@@ -670,6 +670,7 @@ header .nav a {
     right: 24%;
         width: 70vh;
     top: -12%;
+    visibility: visible !important;
 }
 
 .krigle {
