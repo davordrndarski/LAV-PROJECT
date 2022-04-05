@@ -673,7 +673,7 @@ header .nav a {
     visibility: visible !important;
 }
 
-.bicikl .fadeIn {
+.bicikl.fadeIn {
     -webkit-animation-name: none;
     animation-name: none;
 }
